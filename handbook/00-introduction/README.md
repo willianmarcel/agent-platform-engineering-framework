@@ -31,3 +31,6 @@ To give newcomers a clear entry point and a recommended reading path.
 
 ## Conventions
 - This README defines the chapter's scope; the chapter content is authored in the Engineering phase.
+
+## Reading
+- [Read the chapter](CHAPTER.md) — the complete Chapter 00 content.
