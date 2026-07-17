@@ -14,6 +14,7 @@ The navigation index for the APEF worked examples: non-executable, technology-ne
 | [Plugin](./plugins/PLUGIN_EXAMPLES.md) | [lookup-tool-plugin](./plugins/example-lookup-tool-plugin.md) | 10 |
 | [Supervisor](./supervisors/SUPERVISOR_EXAMPLES.md) | [coordinating-supervisor](./supervisors/example-coordinating-supervisor.md) | 11, 07, 17 |
 | [Evaluation](./evaluations/EVALUATION_EXAMPLES.md) | [agent-evaluation](./evaluations/example-agent-evaluation.md) | 16, 18 |
+| [Reference Platform](./reference-platform/README.md) | [end-to-end worked instance](./reference-platform/01-design.md) | 01–27 (end to end) |
 
 ## Concepts demonstrated by area
 
@@ -25,6 +26,7 @@ The navigation index for the APEF worked examples: non-executable, technology-ne
 | Plugin | plugin architecture, contracts, lifecycle, protocol-oriented integration |
 | Supervisor | coordination, control-plane governance, runtime execution, oversight |
 | Evaluation | AI evaluation, human/automated methods, benchmarking, continuous evaluation, evaluation-vs-testing |
+| Reference Platform | the full APEF path applied end to end: vision, domain, architecture, the agentic core (context, tools, memory, coordination, security), evaluation, and decisions |
 
 ## Conventions
 
