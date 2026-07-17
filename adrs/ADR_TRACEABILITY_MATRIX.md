@@ -72,6 +72,23 @@ Source: [`../docs/PUBLICATION_READINESS.md`](../docs/PUBLICATION_READINESS.md) a
 |----------|---------|----------|----------------|-----------|--------------|
 | Adopt ADR framework | Govern significant decisions through ADRs from EC-1 forward | C6 | [`adrs/`](.), the Workflow, the Quality Gates | Seed ADR | ADR-0001 |
 
+## EC-2 execution status
+
+The Board approved the Migration Plan (OD-9); the six seed ADRs were authored in EC-2 and are
+**Accepted**: [ADR-0001](decisions/0001-adopt-adr-framework.md),
+[ADR-0002](decisions/0002-creator-experience-owned-by-chapter-08.md),
+[ADR-0003](decisions/0003-chapter-17-titled-user-experience.md),
+[ADR-0004](decisions/0004-adopt-module-entry-pattern.md),
+[ADR-0005](decisions/0005-establish-governance-module.md),
+[ADR-0006](decisions/0006-adopt-version-control-policy.md). See the [Index](ADR_INDEX.md) for status.
+
+## New EC-2 decisions (authored this milestone)
+
+| Decision | Subject | Category | Affected areas | ADR |
+|----------|---------|----------|----------------|-----|
+| Template ownership & consolidation | One home per template type; complete AD-0012 | C1 | [`templates/`](../templates/), [`specifications/templates/`](../specifications/templates/), [`adrs/ADR_TEMPLATE.md`](ADR_TEMPLATE.md) | [ADR-0007](decisions/0007-template-ownership-and-consolidation.md) |
+| Necessary operational playbooks | Produce architecture/security/release reviews; defer four operation reviews | C2 | [`playbooks/`](../playbooks/) | [ADR-0008](decisions/0008-necessary-operational-playbooks.md) |
+
 ## Completeness statement
 
 Every ratified architectural decision known to the framework at EC-1 appears in this matrix: the 21

@@ -13,14 +13,20 @@ individual records in [`decisions/`](decisions/) hold the authoritative detail.
 
 ## Authored ADR records
 
-*No `ADR-NNNN` records are authored yet.* The ADR framework has been established (this milestone,
-EC-1); the first records are authored on the Board's approval of the
-[Migration Plan](ADR_MIGRATION_PLAN.md), which defines the seed set and the order in which existing
-ratified decisions are represented as formal ADRs.
+The Board approved the [Migration Plan](ADR_MIGRATION_PLAN.md) (OD-9) in EC-2; the seed set below was
+authored accordingly. Each record references its source decision and rewrites nothing that lives
+elsewhere.
 
 | ID | Title | Category | Status | Supersedes | Superseded By |
 |----|-------|----------|--------|------------|---------------|
-| — | *(none authored yet)* | — | — | — | — |
+| [ADR-0001](decisions/0001-adopt-adr-framework.md) | Adopt the ADR engineering framework | C6 | Accepted | — | — |
+| [ADR-0002](decisions/0002-creator-experience-owned-by-chapter-08.md) | Creator Experience is owned by Chapter 08 | C5 | Accepted | — | — |
+| [ADR-0003](decisions/0003-chapter-17-titled-user-experience.md) | Chapter 17 is titled "User Experience" | C1 | Accepted | — | — |
+| [ADR-0004](decisions/0004-adopt-module-entry-pattern.md) | Adopt the Module Entry Pattern | C1 | Accepted | — | — |
+| [ADR-0005](decisions/0005-establish-governance-module.md) | Establish the `governance/` top-level module | C1 | Accepted | — | — |
+| [ADR-0006](decisions/0006-adopt-version-control-policy.md) | Adopt the Version Control Policy | C6 | Accepted | — | — |
+| [ADR-0007](decisions/0007-template-ownership-and-consolidation.md) | Template ownership and consolidation | C1 | Accepted | — | — |
+| [ADR-0008](decisions/0008-necessary-operational-playbooks.md) | Necessary operational playbooks for v1.0 | C2 | Accepted | — | — |
 
 ## Existing ratified decisions (not yet formal ADRs)
 
