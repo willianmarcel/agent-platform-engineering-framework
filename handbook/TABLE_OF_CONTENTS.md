@@ -35,6 +35,7 @@ See the [Master Index](HANDBOOK.md) for reading strategy and policy, the [Knowle
 | 24 | Multi-Agent Coordination | High | 07, 11 |
 | 25 | Memory & Conversational State | High | 07, 12 |
 | 26 | Agentic Security | High | 15, 23 |
+| 27 | Evaluation-Driven Development | High | 04, 16 |
 
 ## Chapter definitions
 
@@ -363,3 +364,15 @@ See the [Master Index](HANDBOOK.md) for reading strategy and policy, the [Knowle
 - **Related chapters:** [15 — Security](15-security/), [16 — Evaluation](16-evaluation/), [23 — Tool & Function Architecture](23-tool-and-function-architecture/)
 - **Estimated complexity:** High
 - **Mandatory reading before this chapter:** [15 — Security](15-security/), [23 — Tool & Function Architecture](23-tool-and-function-architecture/)
+
+### Chapter 27 — Evaluation-Driven Development
+
+- **Chapter number:** 27
+- **Chapter title:** Evaluation-Driven Development
+- **Objective:** Make evaluation a peer of specification, gating every behavior-shaping change.
+- **Scope:** The evaluation-first workflow, behavioral acceptance criteria, and the behavioral regression gate.
+- **Prerequisites:** [04 — Development Methodology](04-development-methodology/), [16 — Evaluation](16-evaluation/)
+- **Expected outputs:** A shared methodology for gating non-deterministic behavior on evidence.
+- **Related chapters:** [04 — Development Methodology](04-development-methodology/), [16 — Evaluation](16-evaluation/), [18 — Testing](18-testing/)
+- **Estimated complexity:** High
+- **Mandatory reading before this chapter:** [04 — Development Methodology](04-development-methodology/), [16 — Evaluation](16-evaluation/)

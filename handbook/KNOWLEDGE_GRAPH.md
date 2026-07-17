@@ -52,6 +52,8 @@ graph TD
   12 --> 25
   15 --> 26
   23 --> 26
+  04 --> 27
+  16 --> 27
 ```
 
 > **Ratified clarification (Architecture Hub).** Chapter 06 is intentionally the architecture hub. Its dependency concentration is an accepted design choice, not a defect: it gives every plane and cross-cutting chapter one consistent architectural anchor.
@@ -87,6 +89,7 @@ graph TD
 | [24 — Multi-Agent Coordination](24-multi-agent-coordination/) | [07 — Runtime Platform](07-runtime-platform/), [11 — Control Plane](11-control-plane/) |
 | [25 — Memory & Conversational State](25-memory-and-conversational-state/) | [07 — Runtime Platform](07-runtime-platform/), [12 — Data Platform](12-data-platform/) |
 | [26 — Agentic Security](26-agentic-security/) | [15 — Security](15-security/), [23 — Tool & Function Architecture](23-tool-and-function-architecture/) |
+| [27 — Evaluation-Driven Development](27-evaluation-driven-development/) | [04 — Development Methodology](04-development-methodology/), [16 — Evaluation](16-evaluation/) |
 
 ## Reading tiers
 
@@ -135,6 +138,7 @@ Each concept is defined once, by its owning chapter. Other chapters reference th
 | [24 — Multi-Agent Coordination](24-multi-agent-coordination/) | Multi-agent coordination: roles, topologies, handoffs, and convergence |
 | [25 — Memory & Conversational State](25-memory-and-conversational-state/) | Agent memory: working vs long-term, scope, retention, and retrieval |
 | [26 — Agentic Security](26-agentic-security/) | Agent-specific threats and controls: injection, guardrails, autonomy (extends Ch 15) |
+| [27 — Evaluation-Driven Development](27-evaluation-driven-development/) | Evaluation-Driven Development: evaluation as a peer of specification, and the behavioral regression gate |
 
 > **Ratified clarification (Glossary owns no concepts).** [21 — Glossary](21-glossary/) does not appear in the ownership table: it owns no concepts. It only standardizes terminology. The definition of every concept belongs to its owning chapter above; the Glossary provides the canonical term and links to that owner.
 

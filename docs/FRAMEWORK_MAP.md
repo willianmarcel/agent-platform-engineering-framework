@@ -9,7 +9,7 @@ artifact; the [Handbook](../handbook/HANDBOOK_SUMMARY.md) remains the normative 
 | Layer | Where | What it provides |
 |-------|-------|------------------|
 | **Governance** | [`bootstrap/`](../bootstrap/), [`governance/`](../governance/README.md) | The constitution, ratified decisions, and roadmap (bootstrap), and the Architecture Governance Package — [Charter](../governance/ARCHITECTURE_CHARTER.md), Board, Operating Model, Escalation, Team Rules, [Version Control Policy](../governance/VERSION_CONTROL_POLICY.md), and [Documentation Conventions](../governance/DOCUMENTATION_CONVENTIONS.md). |
-| **Knowledge** | [`handbook/`](../handbook/HANDBOOK_SUMMARY.md) | The 27-chapter Engineering Handbook, the [Platform Capability Model](../handbook/PLATFORM_CAPABILITY_MODEL.md), and the [Conceptual Diagrams](../handbook/CONCEPTUAL_DIAGRAMS.md). |
+| **Knowledge** | [`handbook/`](../handbook/HANDBOOK_SUMMARY.md) | The 28-chapter Engineering Handbook, the [Platform Capability Model](../handbook/PLATFORM_CAPABILITY_MODEL.md), and the [Conceptual Diagrams](../handbook/CONCEPTUAL_DIAGRAMS.md). |
 | **Execution** | [`execution/`](../execution/EXECUTION_FRAMEWORK.md) | The engineering operating system: commands, skills, workflows, review framework, and quality gates. |
 | **Specification** | [`specifications/`](../specifications/SPECIFICATION_FRAMEWORK.md) | The Specification Framework and the twelve-area Specification Library. |
 | **Decision** | [`adrs/`](../adrs/ADR_FRAMEWORK.md) | The ADR engineering framework — lifecycle, governance, template, index, categories, and the [decision records](../adrs/ADR_INDEX.md). |

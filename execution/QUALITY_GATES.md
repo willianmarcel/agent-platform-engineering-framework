@@ -36,6 +36,7 @@ yields no unresolved finding above the agreed severity threshold.
 | Performance | Meets the stated architectural quality attributes; trade-offs recorded. | [06](../handbook/06-reference-architecture/CHAPTER.md) |
 | Observability | Emits the required signals; SLOs defined; operationally ready. | [14](../handbook/14-observability/CHAPTER.md) |
 | Testing | Software correctness verified across the appropriate levels; regression covered. | [18](../handbook/18-testing/CHAPTER.md) |
+| Evaluation | Non-deterministic behavior meets its behavioral acceptance criteria; the behavioral regression gate passes against baseline; adversarial cases covered. | [16](../handbook/16-evaluation/CHAPTER.md), [27](../handbook/27-evaluation-driven-development/CHAPTER.md) |
 | Documentation | Follows the Writing Guide; links resolve; terminology compliant. | [21](../handbook/21-glossary/CHAPTER.md) |
 
 ## Release gates

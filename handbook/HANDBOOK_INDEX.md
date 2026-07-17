@@ -4,7 +4,7 @@ The primary navigation artifact for the APEF Engineering Handbook. It maps every
 
 **Method.** *Owning chapter* is the chapter that defines the concept. *Referenced by* lists other chapters whose text uses the exact term. *Related concepts* are the other concepts owned by the same chapter. Concept definitions live only in the owning chapter; the [Glossary](21-glossary/CHAPTER.md) standardizes terminology and owns no concepts.
 
-**Totals.** 256 concepts across 27 chapters; each concept has exactly one owning chapter.
+**Totals.** 261 concepts across 28 chapters; each concept has exactly one owning chapter.
 
 ## Concept ownership by chapter
 
@@ -703,3 +703,15 @@ Owns 7 concept(s). Related concepts are the siblings listed here.
 | Autonomy level | — |
 | Human-in-the-loop safety boundary | — |
 | Least-authority agent | — |
+
+### Chapter 27 — Evaluation-Driven Development
+
+Owns 5 concept(s). Related concepts are the siblings listed here.
+
+| Concept | Referenced by |
+|---------|---------------|
+| Evaluation-Driven Development | — |
+| Evaluation-first workflow | — |
+| Behavioral acceptance criteria | — |
+| Behavioral regression gate | — |
+| Behavioral baseline | — |
