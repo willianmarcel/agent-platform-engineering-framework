@@ -20,12 +20,14 @@ engineering concerns that make agentic systems distinct, and they are the highes
 ## Contents
 - [`01-context-and-prompt-engineering.md`](01-context-and-prompt-engineering.md) — the agent's real
   source artifact: context assembly, prompt lifecycle, context-window management.
-- `02-tool-and-function-architecture.md` — tool contracts, permissioning, side-effect governance,
-  execution safety. *(authoring in progress)*
-- `03-multi-agent-orchestration.md` — supervisor/handoff patterns, agent-to-agent protocols.
-  *(authoring in progress)*
-- `04-memory-and-conversational-state.md` — short/long-term memory, retrieval, cross-turn context.
-  *(authoring in progress)*
+- [`02-tool-and-function-architecture.md`](02-tool-and-function-architecture.md) — tool contracts,
+  permissioning, side-effect governance, execution safety.
+- [`03-multi-agent-orchestration.md`](03-multi-agent-orchestration.md) — agent roles, coordination
+  topologies, handoffs, agent-to-agent contracts, convergence.
+- [`04-memory-and-conversational-state.md`](04-memory-and-conversational-state.md) — working vs
+  long-term memory, scope, retention, retrieval into context.
+- [`05-related-upgrades.md`](05-related-upgrades.md) — two recommended follow-on upgrades:
+  Evaluation-Driven Development as a peer of SDD, and a dedicated agentic-security chapter.
 
 ## Out of Scope
 - Modifying the frozen Handbook (chapters, `TABLE_OF_CONTENTS.md`, `HANDBOOK_INDEX.md`,
