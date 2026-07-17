@@ -39,14 +39,14 @@ construction of AI Agent Platforms.
   [`specifications/`](../specifications/), [`architecture/`](../architecture/),
   [`playbooks/`](../playbooks/), [`templates/`](../templates/), [`examples/`](../examples/),
   [`reference/`](../reference/), [`adrs/`](../adrs/), [`docs/`](../docs/),
-  [`assets/`](../assets/), [`scripts/`](../scripts/), and [`.claude/`](../.claude/) trees.
+  [`assets/`](../assets/), [`scripts/`](../scripts/), and [`execution/`](../execution/) trees.
 - **Ratified decision record:** 21 Architecture Decisions (AD-0001 … AD-0021).
 
 ## Final Repository Structure
 
 ```
 agent-platform-engineering-framework/
-├── .claude/            (commands, personas, skills, hooks, workflows)
+├── execution/            (commands, personas, skills, hooks, workflows)
 ├── bootstrap/          (MASTER_PLAN, ARCHITECTURE_DECISIONS, ROADMAP, guides, this record)
 ├── handbook/           (chapters 00-introduction … 21-glossary; source of truth)
 ├── specifications/     (vision, discovery, domains, capabilities, runtime,

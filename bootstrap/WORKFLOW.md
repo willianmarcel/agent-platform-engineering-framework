@@ -40,7 +40,7 @@ links, and no placeholders. Frozen READMEs are never modified; authoritative con
 documents (Module Entry Pattern).
 
 ### 4 · Review
-Review the draft against the [Review Framework](../.claude/REVIEW_FRAMEWORK.md) dimensions and, for
+Review the draft against the [Review Framework](../execution/REVIEW_FRAMEWORK.md) dimensions and, for
 specifications, the [Specification Review](../specifications/SPECIFICATION_REVIEW.md). Requested
 changes return the work to drafting. Review is where the content is judged — objective, and
 against a stated definition of done.

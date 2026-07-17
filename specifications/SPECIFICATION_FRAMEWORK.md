@@ -7,7 +7,7 @@ regardless of technology, language, cloud, or AI framework — is specified the 
 way.
 
 This framework extends the [Handbook](../handbook/HANDBOOK_SUMMARY.md) (the normative source of
-truth) and the [Execution Framework](../.claude/EXECUTION_FRAMEWORK.md) (the engineering
+truth) and the [Execution Framework](../execution/EXECUTION_FRAMEWORK.md) (the engineering
 operating system); it never contradicts or modifies them. It contains no implementation
 guidance, no technology selection, and no programming language — it is engineering methodology
 only.

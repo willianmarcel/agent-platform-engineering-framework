@@ -10,7 +10,7 @@ artifact; the [Handbook](../handbook/HANDBOOK_SUMMARY.md) remains the normative 
 |-------|-------|------------------|
 | **Governance** | [`bootstrap/`](../bootstrap/), [`governance/`](../governance/README.md) | The constitution, ratified decisions, and roadmap (bootstrap), and the Architecture Governance Package — [Charter](../governance/ARCHITECTURE_CHARTER.md), Board, Operating Model, Escalation, Team Rules, [Version Control Policy](../governance/VERSION_CONTROL_POLICY.md), and [Documentation Conventions](../governance/DOCUMENTATION_CONVENTIONS.md). |
 | **Knowledge** | [`handbook/`](../handbook/HANDBOOK_SUMMARY.md) | The 22-chapter Engineering Handbook, the [Platform Capability Model](../handbook/PLATFORM_CAPABILITY_MODEL.md), and the [Conceptual Diagrams](../handbook/CONCEPTUAL_DIAGRAMS.md). |
-| **Execution** | [`.claude/`](../.claude/EXECUTION_FRAMEWORK.md) | The engineering operating system: commands, skills, workflows, review framework, and quality gates. |
+| **Execution** | [`execution/`](../execution/EXECUTION_FRAMEWORK.md) | The engineering operating system: commands, skills, workflows, review framework, and quality gates. |
 | **Specification** | [`specifications/`](../specifications/SPECIFICATION_FRAMEWORK.md) | The Specification Framework and the twelve-area Specification Library. |
 | **Decision** | [`adrs/`](../adrs/ADR_FRAMEWORK.md) | The ADR engineering framework — lifecycle, governance, template, index, categories, and the [decision records](../adrs/ADR_INDEX.md). |
 | **Operations** | [`templates/`](../templates/TEMPLATE_OWNERSHIP.md), [`playbooks/`](../playbooks/) | The template ownership model and reusable forms, and the governance/quality review procedures (architecture, security, release). |
@@ -28,7 +28,7 @@ graph TB
     H["handbook/ (00–21)<br/>+ Platform Capability Model + Diagrams"]
   end
   subgraph Execution
-    E[".claude/<br/>Commands · Skills · Workflows · Reviews · Gates"]
+    E["execution/<br/>Commands · Skills · Workflows · Reviews · Gates"]
   end
   subgraph Specification
     S["specifications/<br/>Framework + 12 Libraries"]

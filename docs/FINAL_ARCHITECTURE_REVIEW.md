@@ -14,7 +14,7 @@ requested, from eight independent perspectives, grounded in the
 decision and is justified in the [Module Coverage Assessment](PUBLICATION_READINESS.md#module-coverage-assessment-planned-vs-delivered):
 renames (`specifications/architecture` → `architecture-requirements`; Chapter 17 → "User
 Experience"), one removal (`architecture/diagrams`), and documented-only-by-design areas
-(`.claude/personas`, `.claude/hooks`, and the instance areas). Beyond the plan, the framework
+(`execution/personas`, `execution/hooks`, and the instance areas). Beyond the plan, the framework
 also delivered the Execution Framework, the Specification Framework and Library, the Platform
 Capability Model, the Governance Package, and the Documentation Conventions. **No planned
 capability was dropped.**

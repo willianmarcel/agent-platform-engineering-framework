@@ -6,7 +6,7 @@ either meets a gate or it does not. This document owns the **framework-authoring
 conditions for accepting a change to the framework's own documentation and structure.
 
 It is distinct from, and complementary to, two other gate sets it aligns with: the
-[Execution Quality Gates](../.claude/QUALITY_GATES.md), which gate work *produced by* the Execution
+[Execution Quality Gates](../execution/QUALITY_GATES.md), which gate work *produced by* the Execution
 Framework, and the [Specification Completion gates](../specifications/SPECIFICATION_COMPLETION.md),
 which gate a specification's readiness. Where those apply, they apply in addition to these.
 
@@ -59,7 +59,7 @@ architectural altitude.
 Gates are verifiable by inspection and, where practical, by mechanical checks against the
 repository (for placeholders, link resolution, single-ownership, and neutrality markers). A gate
 is binary; a partial pass is a fail. The review dimensions in the
-[Review Framework](../.claude/REVIEW_FRAMEWORK.md) map onto these gates, so a review that clears
+[Review Framework](../execution/REVIEW_FRAMEWORK.md) map onto these gates, so a review that clears
 all dimensions also clears the corresponding gates.
 
 Because APEF prescribes no executable automation, these gates define *what* must hold; any tooling
@@ -73,5 +73,5 @@ the framework's scope.
   when every gate passes across its scope.
 - [`WORKFLOW.md`](WORKFLOW.md) specifies at which point in the contribution flow each gate is
   applied.
-- Complements the [Execution Quality Gates](../.claude/QUALITY_GATES.md) and the
+- Complements the [Execution Quality Gates](../execution/QUALITY_GATES.md) and the
   [Specification Completion gates](../specifications/SPECIFICATION_COMPLETION.md).

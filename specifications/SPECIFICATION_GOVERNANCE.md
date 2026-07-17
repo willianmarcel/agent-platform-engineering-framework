@@ -17,7 +17,7 @@ coherent and trustworthy. It is part of the
 
 Each specification is governed by five authorities. For a given category, these are held by the
 skills mapped in the [Taxonomy](SPECIFICATION_TAXONOMY.md) and the
-[Execution Framework](../.claude/SKILL_CATALOG.md).
+[Execution Framework](../execution/SKILL_CATALOG.md).
 
 | Authority | Owns the decision to… | Typically held by |
 |-----------|-----------------------|-------------------|

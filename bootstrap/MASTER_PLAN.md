@@ -69,7 +69,7 @@ Create every directory described below.
 
 agent-platform-engineering-framework/
 
-├── .claude/
+├── execution/
 ├── bootstrap/
 ├── handbook/
 ├── specifications/

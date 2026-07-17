@@ -41,10 +41,10 @@ entry documents.
 
 ## Execution Framework
 
-- [Execution Framework](../.claude/EXECUTION_FRAMEWORK.md) · [Command Catalog](../.claude/COMMAND_CATALOG.md) ·
-  [Skill Catalog](../.claude/SKILL_CATALOG.md) · [Workflow Catalog](../.claude/WORKFLOW_CATALOG.md) ·
-  [Review Framework](../.claude/REVIEW_FRAMEWORK.md) · [Quality Gates](../.claude/QUALITY_GATES.md) ·
-  [Execution Architecture](../.claude/EXECUTION_ARCHITECTURE.md)
+- [Execution Framework](../execution/EXECUTION_FRAMEWORK.md) · [Command Catalog](../execution/COMMAND_CATALOG.md) ·
+  [Skill Catalog](../execution/SKILL_CATALOG.md) · [Workflow Catalog](../execution/WORKFLOW_CATALOG.md) ·
+  [Review Framework](../execution/REVIEW_FRAMEWORK.md) · [Quality Gates](../execution/QUALITY_GATES.md) ·
+  [Execution Architecture](../execution/EXECUTION_ARCHITECTURE.md)
 
 ## Specification Framework & Library
 

@@ -16,7 +16,7 @@ topology and the rules for working within it.
 | `bootstrap/` | The governing plan and engineering guides — the framework's constitution and how-to. | [`MASTER_PLAN.md`](MASTER_PLAN.md) |
 | `governance/` | The Architecture Governance Package (Charter, Board, Operating Model, Escalation, Team Rules, Version Control Policy, Documentation Conventions). | [`../governance/README.md`](../governance/README.md) |
 | `handbook/` | The 22-chapter Engineering Handbook — the normative body of knowledge and concept owner. | [`../handbook/HANDBOOK_SUMMARY.md`](../handbook/HANDBOOK_SUMMARY.md) |
-| `.claude/` | The Execution Framework — commands, skills, workflows, review framework, execution gates. | [`../.claude/EXECUTION_FRAMEWORK.md`](../.claude/EXECUTION_FRAMEWORK.md) |
+| `execution/` | The Execution Framework — commands, skills, workflows, review framework, execution gates. | [`../execution/EXECUTION_FRAMEWORK.md`](../execution/EXECUTION_FRAMEWORK.md) |
 | `specifications/` | The Specification Framework and the 12-area Specification Library. | [`../specifications/SPECIFICATION_FRAMEWORK.md`](../specifications/SPECIFICATION_FRAMEWORK.md) |
 | `adrs/` | Architecture Decision Records and the ADR engineering framework. | [`../adrs/README.md`](../adrs/README.md) |
 | `architecture/` | Diagram-as-code architecture instances (ready-structure). | [`../architecture/README.md`](../architecture/README.md) |
@@ -35,7 +35,7 @@ topology and the rules for working within it.
 - **Intent to be realized** (vision, discovery, capability, domain, requirement, release) → the
   matching Specification Library area.
 - **A decision of architectural significance** → an ADR in `adrs/`.
-- **How work is executed** (a command, role, workflow, or gate) → `.claude/`.
+- **How work is executed** (a command, role, workflow, or gate) → `execution/`.
 - **Analysis of an external technology** → `reference/` (never the Handbook or examples).
 - **An illustrative, neutral walk-through** → `examples/`.
 - **A reusable form** → `templates/`; **a repeatable procedure** → `playbooks/`.

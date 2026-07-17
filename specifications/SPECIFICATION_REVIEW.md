@@ -1,6 +1,6 @@
 # Specification Review Framework
 
-Every specification is reviewed along the dimensions below before it may be approved. Each dimension has a single owning [skill](../.claude/SKILL_CATALOG.md), a Handbook authority, and blocking conditions. This model specializes, for specifications, the [Execution Framework's Review Framework](../.claude/REVIEW_FRAMEWORK.md). Reviews find and record; they do not implement.
+Every specification is reviewed along the dimensions below before it may be approved. Each dimension has a single owning [skill](../execution/SKILL_CATALOG.md), a Handbook authority, and blocking conditions. This model specializes, for specifications, the [Execution Framework's Review Framework](../execution/REVIEW_FRAMEWORK.md). Reviews find and record; they do not implement.
 
 ## Review dimensions
 

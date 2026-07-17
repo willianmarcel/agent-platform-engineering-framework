@@ -18,7 +18,7 @@ created, and no existing artifact was modified, in producing it. Implementation 
 |--------|---------------|---------------|---------|
 | handbook/ | 63 | ~63,900 | Rich, complete |
 | specifications/ | 72 | ~18,500 | Rich, complete |
-| .claude/ (Execution) | 33 | ~7,300 | Complete (personas/hooks empty) |
+| execution/ (Execution) | 33 | ~7,300 | Complete (personas/hooks empty) |
 | bootstrap/ | 9 | ~5,800 | **Mixed: constitution real; 5 operational guides are stubs (~130 words each)** |
 | reference/ | 13 | ~4,700 | Complete (10 studies) |
 | examples/ | 15 | ~3,500 | Complete (6 areas) |
@@ -39,7 +39,7 @@ created, and no existing artifact was modified, in producing it. Implementation 
 |--------|---------|-------------------------|--------|--------------|------------------|----------------|
 | Foundation (repo structure) | Directory contract & structure | Enterprise Architect | Complete, frozen | 100% | — | Master Plan, Architecture Decisions |
 | Handbook | Normative knowledge (22 chapters) | Per-chapter owners | Complete, frozen | 100% | Foundation | Handbook standards, PCM |
-| Execution Framework (.claude/) | Commands, skills, workflows, reviews, gates | Architecture Team | Complete (personas/hooks empty) | ~90% | Handbook | Execution Framework docs |
+| Execution Framework (execution/) | Commands, skills, workflows, reviews, gates | Architecture Team | Complete (personas/hooks empty) | ~90% | Handbook | Execution Framework docs |
 | Governance (governance/) | Charter, Board, escalation, version control, doc conventions | Architecture Board | Complete | 100% | — | Charter |
 | Specifications (framework) | How specifications work | Architecture Team | Complete | 100% | Handbook | Specification Framework |
 | Specifications (library) | 12 specification areas | Per-area owners | Complete | 100% | Framework | Library Index |
@@ -103,7 +103,7 @@ created, and no existing artifact was modified, in producing it. Implementation 
 | Playbooks (procedures) | **Partially Complete** | review *model* delivered (Execution + Spec review frameworks); procedural playbooks not authored |
 | Architecture (diagram instances) | **Merged** | conceptual diagrams delivered in Handbook and Specification modules; per-view instances deferred |
 | Scripts / Assets | **Deferred** | automation out of scope; diagrams authored as code |
-| .claude/personas, hooks | **Merged / Deferred** | personas subsumed by skills; hooks deferred (would approach executable automation) |
+| execution/personas, hooks | **Merged / Deferred** | personas subsumed by skills; hooks deferred (would approach executable automation) |
 
 ---
 
@@ -122,8 +122,8 @@ created, and no existing artifact was modified, in producing it. Implementation 
 
 ## 5. Duplication Analysis
 
-- **Quality gates in three homes:** `bootstrap/QUALITY_GATES` (stub), `.claude/QUALITY_GATES` (execution gates), `specifications/SPECIFICATION_COMPLETION` (completion gates). Scopes are distinct and documented, but the shared name invites confusion. *Recommend:* keep separate; ensure each cross-references the others (the execution and specification ones already do; the bootstrap stub does not).
-- **Review frameworks:** `.claude/REVIEW_FRAMEWORK` and `specifications/SPECIFICATION_REVIEW` overlap; the latter explicitly specializes the former. *Acceptable* — consolidation not required.
+- **Quality gates in three homes:** `bootstrap/QUALITY_GATES` (stub), `execution/QUALITY_GATES` (execution gates), `specifications/SPECIFICATION_COMPLETION` (completion gates). Scopes are distinct and documented, but the shared name invites confusion. *Recommend:* keep separate; ensure each cross-references the others (the execution and specification ones already do; the bootstrap stub does not).
+- **Review frameworks:** `execution/REVIEW_FRAMEWORK` and `specifications/SPECIFICATION_REVIEW` overlap; the latter explicitly specializes the former. *Acceptable* — consolidation not required.
 - **Roadmap term overload:** root `ROADMAP` (nav), `bootstrap/ROADMAP` (phases, stub-flagged), Ch20 (chapter), `specifications/roadmap` (library). Distinct scopes; each is cross-linked. *Acceptable.*
 - **Templates:** the strongest duplication — Foundation `templates/` (empty) vs the Spec Library templates (populated). *Recommend consolidation (G3).*
 - **Terminology / patterns:** no conflicting terminology found; the Module Entry Pattern and 8-section README contract are applied consistently. Concept ownership is single across the Handbook (220 concepts, 0 duplicates).
