@@ -26,8 +26,11 @@ engineering concerns that make agentic systems distinct, and they are the highes
   topologies, handoffs, agent-to-agent contracts, convergence.
 - [`04-memory-and-conversational-state.md`](04-memory-and-conversational-state.md) — working vs
   long-term memory, scope, retention, retrieval into context.
-- [`05-related-upgrades.md`](05-related-upgrades.md) — two recommended follow-on upgrades:
-  Evaluation-Driven Development as a peer of SDD, and a dedicated agentic-security chapter.
+- [`06-agentic-security.md`](06-agentic-security.md) — the agent-specific threat surface: prompt
+  injection (direct/indirect), guardrails, autonomy levels, human-in-the-loop, least authority.
+- [`05-related-upgrades.md`](05-related-upgrades.md) — one remaining recommended upgrade
+  (Evaluation-Driven Development as a peer of SDD) plus the rationale for the now-delivered
+  agentic-security chapter.
 
 ## Out of Scope
 - Modifying the frozen Handbook (chapters, `TABLE_OF_CONTENTS.md`, `HANDBOOK_INDEX.md`,

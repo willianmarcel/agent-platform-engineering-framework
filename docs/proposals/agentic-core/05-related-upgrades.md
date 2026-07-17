@@ -27,7 +27,10 @@ per-chapter footnote.
 Gates; it introduces no new concept ownership conflict (evaluation remains owned by the Evaluation
 chapter; methodology by Development Methodology).
 
-## B. A dedicated Agentic Security chapter
+## B. A dedicated Agentic Security chapter — **now delivered as [`06-agentic-security.md`](06-agentic-security.md)**
+
+*This upgrade has been authored as a full chapter in this proposal set; the rationale below is
+retained for context.*
 
 **Why.** The four agentic-core chapters repeatedly reach a security boundary that the current Security
 chapter does not yet cover at the agentic level. A term scan found **zero** Handbook coverage of
