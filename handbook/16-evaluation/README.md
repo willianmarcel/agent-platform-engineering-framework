@@ -31,3 +31,6 @@ To define how quality is measured and tracked over time.
 
 ## Conventions
 - This README defines the chapter's scope; the chapter content is authored in the Engineering phase.
+
+## Reading
+- [Read the chapter](CHAPTER.md) — the complete Chapter 16 content.
