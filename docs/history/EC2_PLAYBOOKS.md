@@ -1,7 +1,7 @@
 # EC-2 — Playbooks Report (Objective 2)
 
 Records which playbooks were produced and why, ratified as
-[ADR-0008](../adrs/decisions/0008-necessary-operational-playbooks.md). The directive was to produce
+[ADR-0008](../../adrs/decisions/0008-necessary-operational-playbooks.md). The directive was to produce
 *only the playbooks that remain architecturally necessary after the Engineering Assessment*.
 
 ## Selection principle
@@ -15,9 +15,9 @@ assess a running platform's live behavior are adopter-operational Phase-5 conten
 
 | Playbook | Operationalizes | Procedure |
 |----------|-----------------|-----------|
-| Architecture Review | Charter authority + ADR review criteria | [PROCEDURE](../playbooks/architecture-review/PROCEDURE.md) |
-| Security Review (blocking) | Chapter 15 security principles + blocking security dimension | [PROCEDURE](../playbooks/security-review/PROCEDURE.md) |
-| Release Review | The Release Process + all eight Quality Gates | [PROCEDURE](../playbooks/release-review/PROCEDURE.md) |
+| Architecture Review | Charter authority + ADR review criteria | [PROCEDURE](../../playbooks/architecture-review/PROCEDURE.md) |
+| Security Review (blocking) | Chapter 15 security principles + blocking security dimension | [PROCEDURE](../../playbooks/security-review/PROCEDURE.md) |
+| Release Review | The Release Process + all eight Quality Gates | [PROCEDURE](../../playbooks/release-review/PROCEDURE.md) |
 
 Each defines trigger, inputs, steps, decision criteria, outputs, and the gates it enforces; the three
 interlink (architecture → security → release).

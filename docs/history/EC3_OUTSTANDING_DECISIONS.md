@@ -10,7 +10,7 @@ discipline. EC-3 raises **OD-13**. Prior open items are recapped for continuity.
   view model" **including Deployment and Dynamic Views**. Foundation **AD-0010** (immutable) scopes the
   `architecture/c4/` **directory** to only the four core C4 views (Context, Container, Component,
   Code), with Deployment in `deployment/` and Dynamic views in `sequences/` and `state-machines/`.
-- **Reconciliation applied:** The [c4 view model](../architecture/c4/MODELING.md) **defines** all six
+- **Reconciliation applied:** The [c4 view model](../../architecture/c4/MODELING.md) **defines** all six
   view *types* (so the canonical view model is complete, per the brief) but **locates** the Deployment
   and Dynamic view *artifacts* in their dedicated modules (per AD-0010), referencing them rather than
   holding them. This honors both the Board's brief and the immutable AD.

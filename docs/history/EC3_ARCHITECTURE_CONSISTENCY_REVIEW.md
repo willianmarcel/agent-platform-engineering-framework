@@ -1,7 +1,7 @@
 # EC-3 — Architecture Consistency Review
 
 The consistency review of the Architecture Modeling Framework against the rest of APEF, produced by
-the Architecture Team under the [Architecture Charter](../governance/ARCHITECTURE_CHARTER.md). It
+the Architecture Team under the [Architecture Charter](../../governance/ARCHITECTURE_CHARTER.md). It
 renders the quality-gate validations the Board required.
 
 ## Required consistency validations
@@ -11,7 +11,7 @@ renders the quality-gate validations the Board required.
 | Handbook | ✅ Consistent | Every module references its owning chapter(s) and defines no concept; no chapter modified. |
 | Specifications | ✅ Consistent | Each module maps to its specification area(s); event storming feeds `domains`; models satisfy `architecture-requirements`. |
 | Execution Framework | ✅ Consistent | Runtime modeling explicitly distinguishes platform runtime from the engineering Execution Framework and references, never redefines, it. |
-| ADR Library | ✅ Consistent | The framework is recorded as [ADR-0009](../adrs/decisions/0009-establish-architecture-modeling-framework.md); modules cite AD-0008/0010/0011 and the ADR framework. |
+| ADR Library | ✅ Consistent | The framework is recorded as [ADR-0009](../../adrs/decisions/0009-establish-architecture-modeling-framework.md); modules cite AD-0008/0010/0011 and the ADR framework. |
 | Reference Studies | ✅ Consistent | The framework states that studies illustrate approaches analytically and models abstract, never copy, them. |
 | Worked Examples | ✅ Consistent | Modules reference the relevant example areas; model instances are Phase-5 ready-structure. |
 

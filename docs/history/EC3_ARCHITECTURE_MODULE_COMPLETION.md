@@ -1,26 +1,26 @@
 # EC-3 — Architecture Module Completion Report
 
 Records the completion of the Architecture Modeling Framework, produced by the Architecture Team under
-the [Architecture Charter](../governance/ARCHITECTURE_CHARTER.md) for Engineering Completion Milestone
+the [Architecture Charter](../../governance/ARCHITECTURE_CHARTER.md) for Engineering Completion Milestone
 EC-3. It also carries the milestone's compliance attestation.
 
 ## What was delivered
 
-The [`architecture/`](../architecture/ARCHITECTURE_MODELING_FRAMEWORK.md) module is now the
+The [`architecture/`](../../architecture/ARCHITECTURE_MODELING_FRAMEWORK.md) module is now the
 **Architecture Modeling Framework** — methodology, not diagrams — recorded as
-[ADR-0009](../adrs/decisions/0009-establish-architecture-modeling-framework.md).
+[ADR-0009](../../adrs/decisions/0009-establish-architecture-modeling-framework.md).
 
 | Artifact | Role |
 |----------|------|
-| [ARCHITECTURE_MODELING_FRAMEWORK.md](../architecture/ARCHITECTURE_MODELING_FRAMEWORK.md) | The canonical framework: purpose, ownership boundary, relationships, disciplines, shared principles, notation policy, common process, model quality gates. |
-| [c4/MODELING.md](../architecture/c4/MODELING.md) | The canonical view model (Context, Container, Component, Code + Deployment/Dynamic view types). |
-| [deployment/MODELING.md](../architecture/deployment/MODELING.md) | Environments, topology, boundaries, resiliency, scalability, HA, DR. |
-| [event-storming/MODELING.md](../architecture/event-storming/MODELING.md) | Domain exploration; events/commands/policies/aggregates/hotspots; handoff to specifications. |
-| [integrations/MODELING.md](../architecture/integrations/MODELING.md) | Sync/async communication, contracts, versioning, anti-corruption, reliability. |
-| [network/MODELING.md](../architecture/network/MODELING.md) | Trust boundaries, segmentation, connectivity, DNS, discovery, ingress/egress, private networking. |
-| [runtime/MODELING.md](../architecture/runtime/MODELING.md) | Execution model, lifecycle, orchestration, concurrency, retries, recovery, failure handling. |
-| [sequences/MODELING.md](../architecture/sequences/MODELING.md) | Interaction modeling; when sequences are appropriate. |
-| [state-machines/MODELING.md](../architecture/state-machines/MODELING.md) | Lifecycle modeling; when to prefer over sequences. |
+| [ARCHITECTURE_MODELING_FRAMEWORK.md](../../architecture/ARCHITECTURE_MODELING_FRAMEWORK.md) | The canonical framework: purpose, ownership boundary, relationships, disciplines, shared principles, notation policy, common process, model quality gates. |
+| [c4/MODELING.md](../../architecture/c4/MODELING.md) | The canonical view model (Context, Container, Component, Code + Deployment/Dynamic view types). |
+| [deployment/MODELING.md](../../architecture/deployment/MODELING.md) | Environments, topology, boundaries, resiliency, scalability, HA, DR. |
+| [event-storming/MODELING.md](../../architecture/event-storming/MODELING.md) | Domain exploration; events/commands/policies/aggregates/hotspots; handoff to specifications. |
+| [integrations/MODELING.md](../../architecture/integrations/MODELING.md) | Sync/async communication, contracts, versioning, anti-corruption, reliability. |
+| [network/MODELING.md](../../architecture/network/MODELING.md) | Trust boundaries, segmentation, connectivity, DNS, discovery, ingress/egress, private networking. |
+| [runtime/MODELING.md](../../architecture/runtime/MODELING.md) | Execution model, lifecycle, orchestration, concurrency, retries, recovery, failure handling. |
+| [sequences/MODELING.md](../../architecture/sequences/MODELING.md) | Interaction modeling; when sequences are appropriate. |
+| [state-machines/MODELING.md](../../architecture/state-machines/MODELING.md) | Lifecycle modeling; when to prefer over sequences. |
 
 No top-level architecture module was renamed or added. Each module was completed as a methodology
 entry document beside its frozen README (Module Entry Pattern).

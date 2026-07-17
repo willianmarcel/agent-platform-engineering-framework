@@ -2,14 +2,14 @@
 
 Attestation that Engineering Completion Milestone EC-2 was executed within every constraint the
 Architecture Board set, produced by the Architecture Team under the
-[Architecture Charter](../governance/ARCHITECTURE_CHARTER.md).
+[Architecture Charter](../../governance/ARCHITECTURE_CHARTER.md).
 
 ## Mandate compliance
 
 | Requirement | Status | Evidence |
 |-------------|--------|----------|
-| Obj 1 — resolve template ownership and consolidation | ✅ | [ADR-0007](../adrs/decisions/0007-template-ownership-and-consolidation.md), [TEMPLATE_OWNERSHIP.md](../templates/TEMPLATE_OWNERSHIP.md), base + work-item forms. |
-| Obj 2 — produce only architecturally necessary playbooks | ✅ | Three procedures produced; four deferred with rationale ([ADR-0008](../adrs/decisions/0008-necessary-operational-playbooks.md)). |
+| Obj 1 — resolve template ownership and consolidation | ✅ | [ADR-0007](../../adrs/decisions/0007-template-ownership-and-consolidation.md), [TEMPLATE_OWNERSHIP.md](../../templates/TEMPLATE_OWNERSHIP.md), base + work-item forms. |
+| Obj 2 — produce only architecturally necessary playbooks | ✅ | Three procedures produced; four deferred with rationale ([ADR-0008](../../adrs/decisions/0008-necessary-operational-playbooks.md)). |
 | Obj 3 — execute the approved ADR Migration Plan | ✅ | ADR-0001..ADR-0006 authored per plan; [execution report](EC2_ADR_MIGRATION_EXECUTION.md). |
 | Obj 4 — framework-wide validation (6 dimensions) | ✅ | [Framework Validation](EC2_FRAMEWORK_VALIDATION.md): traceability, consistency, ownership, documentation, neutrality, navigation. |
 | Produce an operationally complete framework | ✅ | Operating loop complete: standards → gates → workflow → decisions → templates → review → release. |

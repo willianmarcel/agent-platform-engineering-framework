@@ -1,13 +1,13 @@
 # EC-2 — Architecture Review
 
 The architecture review for the final engineering milestone EC-2, produced by the Architecture Team
-under the [Architecture Charter](../governance/ARCHITECTURE_CHARTER.md), rendering formal
+under the [Architecture Charter](../../governance/ARCHITECTURE_CHARTER.md), rendering formal
 determinations on the operational-completeness work from multiple perspectives.
 
 ## Determinations
 
 ### 1. Is template ownership now unambiguous and duplication removed?
-**Yes.** Every template type has one owning home ([ADR-0007](../adrs/decisions/0007-template-ownership-and-consolidation.md)):
+**Yes.** Every template type has one owning home ([ADR-0007](../../adrs/decisions/0007-template-ownership-and-consolidation.md)):
 the base at `templates/specification/`, category templates in the Specification Library, the ADR form
 in the ADR framework, work-item forms top-level. Top-level stubs are resolved as pointers or
 extension points — no competing copies. AD-0012 is completed, base form and inheritance now concrete.
@@ -16,7 +16,7 @@ extension points — no competing copies. AD-0012 is completed, base form and in
 **Yes.** The three produced (architecture, security, release) operationalize framework-level gates the
 framework itself references and can run without a platform. The four deferred (production-readiness,
 performance, observability, incident) assess a running platform and are correctly Phase-5 instance
-content ([ADR-0008](../adrs/decisions/0008-necessary-operational-playbooks.md)). Producing "only what
+content ([ADR-0008](../../adrs/decisions/0008-necessary-operational-playbooks.md)). Producing "only what
 is necessary" was honored.
 
 ### 3. Does the executed migration preserve decision integrity?

@@ -1,9 +1,9 @@
 # Engineering Completion Report — EC-1
 
 The consolidated completion report for Engineering Completion Milestone **EC-1**, produced by the
-Architecture Team under the [Architecture Charter](../governance/ARCHITECTURE_CHARTER.md). EC-1 was
+Architecture Team under the [Architecture Charter](../../governance/ARCHITECTURE_CHARTER.md). EC-1 was
 chartered by the Architecture Board to resolve the two High-priority gaps the
-[Engineering Assessment](ENGINEERING_ASSESSMENT.md) identified — **G1** (bootstrap engineering
+[Engineering Assessment](../ENGINEERING_ASSESSMENT.md) identified — **G1** (bootstrap engineering
 guides) and **G2** (ADR engineering library) — moving APEF from *Methodologically Complete* toward
 *Engineering Complete*. No frozen artifact was modified; no technology, vendor, or implementation
 code was introduced; no new architectural principle was created.
@@ -29,20 +29,20 @@ in the [Bootstrap Completion Report](BOOTSTRAP_COMPLETION_REPORT.md).
 
 ## G2 — ADR engineering framework ✅
 
-The ADR engineering framework is established in [`../adrs/`](../adrs/), without rewriting any
+The ADR engineering framework is established in [`../adrs/`](../../adrs), without rewriting any
 existing decision or inventing historical ADRs. Delivered:
 
 | Artifact | Purpose |
 |----------|---------|
-| [ADR_FRAMEWORK.md](../adrs/ADR_FRAMEWORK.md) | Purpose, philosophy, significance threshold, module structure. |
-| [ADR_LIFECYCLE.md](../adrs/ADR_LIFECYCLE.md) | States, transitions, supersession, retirement. |
-| [ADR_GOVERNANCE.md](../adrs/ADR_GOVERNANCE.md) | Ownership, numbering, review, ratification, integrity. |
-| [ADR_TEMPLATE.md](../adrs/ADR_TEMPLATE.md) | The canonical ADR form. |
-| [ADR_INDEX.md](../adrs/ADR_INDEX.md) | The live registry of ADRs. |
-| [ADR_MIGRATION_PLAN.md](../adrs/ADR_MIGRATION_PLAN.md) | How existing ratified decisions become formal ADRs. |
-| [ADR_TRACEABILITY_MATRIX.md](../adrs/ADR_TRACEABILITY_MATRIX.md) | Every ratified decision → origin, category, treatment. |
-| [decision-categories/](../adrs/decision-categories/) | The C1–C6 classification taxonomy. |
-| [decisions/](../adrs/decisions/) | Home for authored ADR records. |
+| [ADR_FRAMEWORK.md](../../adrs/ADR_FRAMEWORK.md) | Purpose, philosophy, significance threshold, module structure. |
+| [ADR_LIFECYCLE.md](../../adrs/ADR_LIFECYCLE.md) | States, transitions, supersession, retirement. |
+| [ADR_GOVERNANCE.md](../../adrs/ADR_GOVERNANCE.md) | Ownership, numbering, review, ratification, integrity. |
+| [ADR_TEMPLATE.md](../../adrs/ADR_TEMPLATE.md) | The canonical ADR form. |
+| [ADR_INDEX.md](../../adrs/ADR_INDEX.md) | The live registry of ADRs. |
+| [ADR_MIGRATION_PLAN.md](../../adrs/ADR_MIGRATION_PLAN.md) | How existing ratified decisions become formal ADRs. |
+| [ADR_TRACEABILITY_MATRIX.md](../../adrs/ADR_TRACEABILITY_MATRIX.md) | Every ratified decision → origin, category, treatment. |
+| [decision-categories/](../../adrs/decision-categories) | The C1–C6 classification taxonomy. |
+| [decisions/](../../adrs/decisions) | Home for authored ADR records. |
 
 **Decision inventory identified (complete):** the 21 Foundation Architecture Decisions
 (AD-0001..AD-0021), the 6 Board Outstanding Decisions (OD-1..OD-6), and the 2 Board-initiated

@@ -8,9 +8,9 @@ recapped for continuity.
 ## New — raised by EC-1
 
 ### OD-7 — `adrs/` internal structure vs the frozen directory README
-- **Question:** The EC-1-mandated structure places ADR records in [`../adrs/decisions/`](../adrs/decisions/)
-  and the taxonomy in [`../adrs/decision-categories/`](../adrs/decision-categories/). The frozen
-  [`adrs/README.md`](../adrs/README.md) illustrates records living at the directory root (e.g.,
+- **Question:** The EC-1-mandated structure places ADR records in [`../adrs/decisions/`](../../adrs/decisions)
+  and the taxonomy in [`../adrs/decision-categories/`](../../adrs/decision-categories). The frozen
+  [`adrs/README.md`](../../adrs/README.md) illustrates records living at the directory root (e.g.,
   `0001-record-architecture-decisions.md`). This is an **addition** consistent with the Module Entry
   Pattern, not a contradiction — but it extends what the frozen README depicts.
 - **Ask:** Acknowledge the `decisions/` and `decision-categories/` subdirectories as the record and
@@ -33,7 +33,7 @@ recapped for continuity.
   going forward.
 
 ### OD-9 — Authorize execution of the ADR Migration Plan
-- **Question:** The [Migration Plan](../adrs/ADR_MIGRATION_PLAN.md) proposes six seed ADRs. They are
+- **Question:** The [Migration Plan](../../adrs/ADR_MIGRATION_PLAN.md) proposes six seed ADRs. They are
   **not** authored (gated on approval).
 - **Ask:** Approve the plan and authorize authoring ADR-0001..ADR-0006 as specified.
 - **Recommendation:** Approve; author on the same approval that ratifies EC-1.
@@ -50,7 +50,7 @@ recapped for continuity.
 - **OD-4 — Single home for the mandated architectural principles.** Deferred to Release 1.1; an ADR
   is authored when resolved.
 - **OD-5 — Module Entry Pattern.** Standing; proposed as seed **ADR-0004**.
-- **OD-6 — Commits deferred.** Process gate under the [Version Control Policy](../governance/VERSION_CONTROL_POLICY.md);
+- **OD-6 — Commits deferred.** Process gate under the [Version Control Policy](../../governance/VERSION_CONTROL_POLICY.md);
   no commit performed in EC-1. Remains in force until the Board lifts it.
 
 ## Summary

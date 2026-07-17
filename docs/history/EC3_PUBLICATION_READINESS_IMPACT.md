@@ -2,15 +2,15 @@
 
 Assesses how completing the Architecture Modeling Framework (EC-3) affects APEF's readiness to be
 declared **Engineering Complete** and published as v1.0. Produced by the Architecture Team under the
-[Architecture Charter](../governance/ARCHITECTURE_CHARTER.md).
+[Architecture Charter](../../governance/ARCHITECTURE_CHARTER.md).
 
 ## The gap EC-3 closed
 
-The [Publication Readiness](PUBLICATION_READINESS.md) assessment and the
-[Engineering Assessment](ENGINEERING_ASSESSMENT.md) treated `architecture/` as ready-structure — a
+The [Publication Readiness](../PUBLICATION_READINESS.md) assessment and the
+[Engineering Assessment](../ENGINEERING_ASSESSMENT.md) treated `architecture/` as ready-structure — a
 reserved module with contract READMEs but no methodology. The Board identified it as the one remaining
 engineering capability. EC-3 completes it: `architecture/` is now the Architecture Modeling Framework,
-a full methodology layer across eight disciplines ([ADR-0009](../adrs/decisions/0009-establish-architecture-modeling-framework.md)).
+a full methodology layer across eight disciplines ([ADR-0009](../../adrs/decisions/0009-establish-architecture-modeling-framework.md)).
 
 ## Completeness posture after EC-3
 
@@ -51,6 +51,6 @@ playbooks, ADR/asset instances) — designed extensibility, not engineering gaps
 EC-3 **removes the last engineering blocker** the Board identified. Subject to confirming **OD-13**
 (the c4/AD-0010 reconciliation) and the previously raised **OD-10/OD-11**, the Architecture Team
 assesses APEF as ready to be **declared Engineering Complete** and recommends proceeding to **v1.0
-publication (OD-12)** via the [release-review procedure](../playbooks/release-review/PROCEDURE.md),
+publication (OD-12)** via the [release-review procedure](../../playbooks/release-review/PROCEDURE.md),
 the OD-6 lift, per-milestone commits, and the v1.0 tag. The Team will act only on explicit Board
 authorization.

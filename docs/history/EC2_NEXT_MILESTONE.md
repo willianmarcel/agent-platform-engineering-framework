@@ -22,12 +22,12 @@ are the framework's **designed extensibility for Phase 5**, populated through us
 Contingent on OD-12 approval:
 
 1. **Run the Release Review** over the full scope using the
-   [release-review procedure](../playbooks/release-review/PROCEDURE.md) — confirm all eight Quality
+   [release-review procedure](../../playbooks/release-review/PROCEDURE.md) — confirm all eight Quality
    Gates pass and the architecture/security reviews are satisfied.
 2. **Lift OD-6** and commit the accumulated approved milestones as **one logical commit per
    milestone** (Handbook v1.0, Execution Framework, Specification Framework, Specification Library,
    Reference Studies, Worked Examples, Publication Readiness, EC-1, EC-2), each traceable to its Board
-   approval, per the [Version Control Policy](../governance/VERSION_CONTROL_POLICY.md).
+   approval, per the [Version Control Policy](../../governance/VERSION_CONTROL_POLICY.md).
 3. **Tag APEF v1.0** at the publication milestone.
 4. **Resolve OD-11** (Chapter 17 label reconciliation) as a governed correction if the Board so
    directs, before or with the tag.
@@ -37,7 +37,7 @@ Contingent on OD-12 approval:
 Populate the ready-structure areas through real use; resolve **OD-4** in Release 1.1 (single home for
 the mandated architectural principles); produce the four platform-operation playbooks as adopters
 operate real platforms; and evolve the framework via the Chapter-20 evolution philosophy and the
-[Release Process](../bootstrap/RELEASE_PROCESS.md).
+[Release Process](../../bootstrap/RELEASE_PROCESS.md).
 
 ## Alternative
 

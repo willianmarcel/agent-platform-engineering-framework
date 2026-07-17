@@ -1,7 +1,7 @@
 # EC-1 — Next Milestone Proposal
 
 The Architecture Team's proposal for the milestone following EC-1, for the Architecture Board's
-consideration. It is grounded in the [Engineering Assessment](ENGINEERING_ASSESSMENT.md) gap list
+consideration. It is grounded in the [Engineering Assessment](../ENGINEERING_ASSESSMENT.md) gap list
 and the state left by EC-1. EC-1 resolved the two High-priority gaps (G1, G2); the remaining path to
 full Engineering Completeness is the Assessment's Medium and Low findings.
 
@@ -20,8 +20,8 @@ editorial reconciliations (OD-2 title/TOC, OD-4 principles home) are open.
 A milestone in two coordinated parts, sized to be completable and Board-reviewable.
 
 ### Part A — Activate the decision log (depends on OD-9 approval)
-Author the six seed ADRs the [Migration Plan](../adrs/ADR_MIGRATION_PLAN.md) defines
-(ADR-0001..ADR-0006), populate the [Index](../adrs/ADR_INDEX.md), and reconcile OD-2 (author
+Author the six seed ADRs the [Migration Plan](../../adrs/ADR_MIGRATION_PLAN.md) defines
+(ADR-0001..ADR-0006), populate the [Index](../../adrs/ADR_INDEX.md), and reconcile OD-2 (author
 ADR-0003 and resolve the title-vs-TOC note under Board direction). This turns the established-but-empty
 ADR log into a populated, exemplary one and demonstrates the framework on real decisions.
 
@@ -41,7 +41,7 @@ adopters have a concrete model, while the areas remain designed for growth throu
 ## Alternative considered
 
 **"Publish v1.0 now, defer EC-2."** The framework is already publication-ready per the
-[Publication Readiness](PUBLICATION_READINESS.md) assessment, and EC-1 strengthened it further. The
+[Publication Readiness](../PUBLICATION_READINESS.md) assessment, and EC-1 strengthened it further. The
 Board could choose to lift OD-6, commit, and tag v1.0 immediately, treating EC-2 as post-1.0
 evolution. This is a legitimate path; the Team defers the sequencing decision to the Board.
 

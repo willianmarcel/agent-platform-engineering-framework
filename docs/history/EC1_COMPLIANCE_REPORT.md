@@ -2,7 +2,7 @@
 
 Attestation that Engineering Completion Milestone EC-1 was executed within every constraint the
 Architecture Board set, produced by the Architecture Team under the
-[Architecture Charter](../governance/ARCHITECTURE_CHARTER.md).
+[Architecture Charter](../../governance/ARCHITECTURE_CHARTER.md).
 
 ## Mandate compliance
 
@@ -14,8 +14,8 @@ Architecture Board set, produced by the Architecture Team under the
 | G1 — no placeholders | ✅ | Placeholder scan: only rule-defining tokens remain. |
 | G2 — establish ADR framework (all named artifacts) | ✅ | FRAMEWORK, LIFECYCLE, GOVERNANCE, TEMPLATE, INDEX, decision-categories/, decisions/ created. |
 | G2 — define purpose/philosophy/lifecycle/ownership/governance/numbering/relationships/traceability/supersession/retirement/review | ✅ | Covered across the ADR documents. |
-| G2 — identify every ratified decision | ✅ | [Traceability Matrix](../adrs/ADR_TRACEABILITY_MATRIX.md): 21 AD + 6 OD + 2 Board decisions. |
-| G2 — create migration plan | ✅ | [Migration Plan](../adrs/ADR_MIGRATION_PLAN.md) with six seed ADRs and treatment of every decision. |
+| G2 — identify every ratified decision | ✅ | [Traceability Matrix](../../adrs/ADR_TRACEABILITY_MATRIX.md): 21 AD + 6 OD + 2 Board decisions. |
+| G2 — create migration plan | ✅ | [Migration Plan](../../adrs/ADR_MIGRATION_PLAN.md) with six seed ADRs and treatment of every decision. |
 | G2 — do NOT rewrite existing decisions or invent historical ADRs | ✅ | No AD/OD text altered; no ADR authored; migration gated on approval. |
 | Deliverables produced | ✅ | Bootstrap Completion, ADR Framework, Migration Plan, Traceability Matrix, Engineering Completion, Architecture Review, Outstanding Decisions, Next Milestone Proposal. |
 

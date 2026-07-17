@@ -13,7 +13,7 @@ base + work-item forms + ownership map, 3 playbook procedures, and the Framework
 
 - **3,681** internal links checked; **0 broken** (repository-wide).
 - Every EC-2 decision traces to its origin and affected areas via the
-  [ADR Traceability Matrix](../adrs/ADR_TRACEABILITY_MATRIX.md); every ratified decision is
+  [ADR Traceability Matrix](../../adrs/ADR_TRACEABILITY_MATRIX.md); every ratified decision is
   accounted for (21 AD + 6 OD + 2 Board topology/VC + 2 new EC-2 decisions).
 - The ADR record sequence is contiguous (ADR-0001..ADR-0008) with no gaps.
 - **Result: traceability is complete.**
@@ -57,12 +57,12 @@ base + work-item forms + ownership map, 3 playbook procedures, and the Framework
 
 ## Navigation
 
-- The [Framework Map](FRAMEWORK_MAP.md) now surfaces the operational **Decision** (`adrs/`) and
+- The [Framework Map](../FRAMEWORK_MAP.md) now surfaces the operational **Decision** (`adrs/`) and
   **Operations** (`templates/`, `playbooks/`) layers alongside Governance, Knowledge, Execution,
   Specification, and Learning.
-- The [ADR Index](../adrs/ADR_INDEX.md) lists all records; the
-  [Traceability Matrix](../adrs/ADR_TRACEABILITY_MATRIX.md) maps them; the
-  [Template Ownership map](../templates/TEMPLATE_OWNERSHIP.md) is reachable from the base template,
+- The [ADR Index](../../adrs/ADR_INDEX.md) lists all records; the
+  [Traceability Matrix](../../adrs/ADR_TRACEABILITY_MATRIX.md) maps them; the
+  [Template Ownership map](../../templates/TEMPLATE_OWNERSHIP.md) is reachable from the base template,
   ADR-0007, and the Framework Map; the playbook procedures interlink and link from the Release
   Process.
 - **Result: navigation is complete for the operational modules.**

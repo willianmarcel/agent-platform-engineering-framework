@@ -1,7 +1,7 @@
 # EC-1 — Architecture Review
 
 The architecture review for Engineering Completion Milestone EC-1, produced by the Architecture Team
-under the [Architecture Charter](../governance/ARCHITECTURE_CHARTER.md). It renders formal
+under the [Architecture Charter](../../governance/ARCHITECTURE_CHARTER.md). It renders formal
 determinations on the work delivered in EC-1 (G1 bootstrap guides, G2 ADR framework) from multiple
 architectural perspectives.
 

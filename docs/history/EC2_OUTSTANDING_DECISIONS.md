@@ -17,7 +17,7 @@ confirmation of OD-10.
 ## New — raised by EC-2
 
 ### OD-11 — Chapter 17 title / TOC / directory reconciliation
-- **Question:** [ADR-0003](../adrs/decisions/0003-chapter-17-titled-user-experience.md) formalizes
+- **Question:** [ADR-0003](../../adrs/decisions/0003-chapter-17-titled-user-experience.md) formalizes
   the "User Experience" title (OD-2), but the chapter **directory** remains `handbook/17-ui-ux/` and
   the frozen **Table of Contents** still lists the original "UI/UX" label. These are frozen Handbook
   artifacts, which EC-2 was directed not to modify.
@@ -31,11 +31,11 @@ confirmation of OD-10.
 ### OD-12 — Authorize APEF v1.0 publication
 - **Question:** With EC-1 and EC-2 complete, the framework is **conceptually, methodologically, and
   operationally complete**. Publication was already assessed READY at
-  [Publication Readiness](PUBLICATION_READINESS.md); EC-1/EC-2 strengthened it further.
+  [Publication Readiness](../PUBLICATION_READINESS.md); EC-1/EC-2 strengthened it further.
 - **Ask:** Authorize v1.0 publication — lift OD-6, commit the accumulated approved milestones as one
-  logical commit each (per the [Version Control Policy](../governance/VERSION_CONTROL_POLICY.md)), and
+  logical commit each (per the [Version Control Policy](../../governance/VERSION_CONTROL_POLICY.md)), and
   tag **APEF v1.0**.
-- **Recommendation:** Approve, after the [Release Review procedure](../playbooks/release-review/PROCEDURE.md)
+- **Recommendation:** Approve, after the [Release Review procedure](../../playbooks/release-review/PROCEDURE.md)
   is run over the full scope. The Architecture Team will act only on explicit Board authorization.
 
 ## Carried forward — prior ODs

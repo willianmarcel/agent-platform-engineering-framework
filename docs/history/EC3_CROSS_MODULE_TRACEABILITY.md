@@ -22,14 +22,14 @@ single-ownership — every depicted concept has exactly one owner, always in the
 
 | Module | Owning Handbook chapter(s) | Specification area(s) | Decisions |
 |--------|---------------------------|-----------------------|-----------|
-| c4 | [06 Reference Architecture](../handbook/06-reference-architecture/CHAPTER.md) | architecture-requirements | AD-0010, AD-0008 |
-| deployment | [19 DevOps](../handbook/19-devops/CHAPTER.md), [06](../handbook/06-reference-architecture/CHAPTER.md) | runtime, architecture-requirements, releases | AD-0010 |
-| event-storming | [05 Domain-Driven Design](../handbook/05-domain-driven-design/CHAPTER.md) | discovery, domains | AD-0011 |
-| integrations | [13 API Platform](../handbook/13-api-platform/CHAPTER.md), [09 Provider](../handbook/09-provider-platform/CHAPTER.md), [05](../handbook/05-domain-driven-design/CHAPTER.md) | architecture-requirements | ADR framework |
-| network | [15 Security](../handbook/15-security/CHAPTER.md), [06](../handbook/06-reference-architecture/CHAPTER.md) | security, architecture-requirements | ADR framework; security-review |
-| runtime | [07 Runtime Platform](../handbook/07-runtime-platform/CHAPTER.md), [11 Control Plane](../handbook/11-control-plane/CHAPTER.md) | runtime | ADR framework |
-| sequences | [06](../handbook/06-reference-architecture/CHAPTER.md), [07](../handbook/07-runtime-platform/CHAPTER.md) | architecture-requirements, runtime | AD-0010 |
-| state-machines | [07](../handbook/07-runtime-platform/CHAPTER.md), [05](../handbook/05-domain-driven-design/CHAPTER.md) | runtime | AD-0010 |
+| c4 | [06 Reference Architecture](../../handbook/06-reference-architecture/CHAPTER.md) | architecture-requirements | AD-0010, AD-0008 |
+| deployment | [19 DevOps](../../handbook/19-devops/CHAPTER.md), [06](../../handbook/06-reference-architecture/CHAPTER.md) | runtime, architecture-requirements, releases | AD-0010 |
+| event-storming | [05 Domain-Driven Design](../../handbook/05-domain-driven-design/CHAPTER.md) | discovery, domains | AD-0011 |
+| integrations | [13 API Platform](../../handbook/13-api-platform/CHAPTER.md), [09 Provider](../../handbook/09-provider-platform/CHAPTER.md), [05](../../handbook/05-domain-driven-design/CHAPTER.md) | architecture-requirements | ADR framework |
+| network | [15 Security](../../handbook/15-security/CHAPTER.md), [06](../../handbook/06-reference-architecture/CHAPTER.md) | security, architecture-requirements | ADR framework; security-review |
+| runtime | [07 Runtime Platform](../../handbook/07-runtime-platform/CHAPTER.md), [11 Control Plane](../../handbook/11-control-plane/CHAPTER.md) | runtime | ADR framework |
+| sequences | [06](../../handbook/06-reference-architecture/CHAPTER.md), [07](../../handbook/07-runtime-platform/CHAPTER.md) | architecture-requirements, runtime | AD-0010 |
+| state-machines | [07](../../handbook/07-runtime-platform/CHAPTER.md), [05](../../handbook/05-domain-driven-design/CHAPTER.md) | runtime | AD-0010 |
 
 ## Shared concepts and their single owners
 
@@ -52,9 +52,9 @@ module references it and defines none.
 
 | Module | Related worked examples | Model instances |
 |--------|-------------------------|-----------------|
-| event-storming, state-machines | [agents](../examples/agents/) | Ready-structure (Phase 5) |
-| runtime, sequences | [workflows](../examples/workflows/), [supervisors](../examples/supervisors/) | Ready-structure (Phase 5) |
-| integrations | [providers](../examples/providers/) | Ready-structure (Phase 5) |
+| event-storming, state-machines | [agents](../../examples/agents) | Ready-structure (Phase 5) |
+| runtime, sequences | [workflows](../../examples/workflows), [supervisors](../../examples/supervisors) | Ready-structure (Phase 5) |
+| integrations | [providers](../../examples/providers) | Ready-structure (Phase 5) |
 
 ## Completeness statement
 
