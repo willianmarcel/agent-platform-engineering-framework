@@ -25,7 +25,7 @@ See the [Master Index](HANDBOOK.md) for reading strategy and policy, the [Knowle
 | 14 | Observability | Medium | 06, 07 |
 | 15 | Security | High | 06 |
 | 16 | Evaluation | High | 06, 07 |
-| 17 | UI/UX | Medium | 06, 08 |
+| 17 | User Experience | Medium | 06, 08 |
 | 18 | Testing | Medium | 06, 07 |
 | 19 | DevOps | Medium | 06, 14 |
 | 20 | Roadmap | Low | 01, 02 |
@@ -119,7 +119,7 @@ See the [Master Index](HANDBOOK.md) for reading strategy and policy, the [Knowle
 - **Scope:** The layered and modular structure, how the planes relate, cross-cutting concerns, and the seams between components.
 - **Prerequisites:** [01 — Platform Vision](01-platform-vision/), [03 — Engineering Principles](03-engineering-principles/), [05 — Domain-Driven Design](05-domain-driven-design/)
 - **Expected outputs:** The canonical mental model that every plane and cross-cutting chapter builds on.
-- **Related chapters:** [07 — Runtime Platform](07-runtime-platform/), [08 — Builder Platform](08-builder-platform/), [09 — Provider Platform](09-provider-platform/), [10 — Plugin Platform](10-plugin-platform/), [11 — Control Plane](11-control-plane/), [12 — Data Platform](12-data-platform/), [13 — API Platform](13-api-platform/), [14 — Observability](14-observability/), [15 — Security](15-security/), [16 — Evaluation](16-evaluation/), [17 — UI/UX](17-ui-ux/), [18 — Testing](18-testing/), [19 — DevOps](19-devops/)
+- **Related chapters:** [07 — Runtime Platform](07-runtime-platform/), [08 — Builder Platform](08-builder-platform/), [09 — Provider Platform](09-provider-platform/), [10 — Plugin Platform](10-plugin-platform/), [11 — Control Plane](11-control-plane/), [12 — Data Platform](12-data-platform/), [13 — API Platform](13-api-platform/), [14 — Observability](14-observability/), [15 — Security](15-security/), [16 — Evaluation](16-evaluation/), [17 — User Experience](17-ui-ux/), [18 — Testing](18-testing/), [19 — DevOps](19-devops/)
 - **Estimated complexity:** High
 - **Mandatory reading before this chapter:** [01 — Platform Vision](01-platform-vision/), [03 — Engineering Principles](03-engineering-principles/), [05 — Domain-Driven Design](05-domain-driven-design/)
 
@@ -143,7 +143,7 @@ See the [Master Index](HANDBOOK.md) for reading strategy and policy, the [Knowle
 - **Scope:** Composition of agents, tools, and workflows, and validation and iteration during building.
 - **Prerequisites:** [06 — Reference Architecture](06-reference-architecture/), [07 — Runtime Platform](07-runtime-platform/)
 - **Expected outputs:** A model of how platforms are built on the runtime.
-- **Related chapters:** [10 — Plugin Platform](10-plugin-platform/), [17 — UI/UX](17-ui-ux/)
+- **Related chapters:** [10 — Plugin Platform](10-plugin-platform/), [17 — User Experience](17-ui-ux/)
 - **Estimated complexity:** High
 - **Mandatory reading before this chapter:** [06 — Reference Architecture](06-reference-architecture/), [07 — Runtime Platform](07-runtime-platform/)
 
@@ -243,10 +243,10 @@ See the [Master Index](HANDBOOK.md) for reading strategy and policy, the [Knowle
 - **Estimated complexity:** High
 - **Mandatory reading before this chapter:** [06 — Reference Architecture](06-reference-architecture/), [07 — Runtime Platform](07-runtime-platform/)
 
-### Chapter 17 — UI/UX
+### Chapter 17 — User Experience
 
 - **Chapter number:** 17
-- **Chapter title:** UI/UX
+- **Chapter title:** User Experience
 - **Objective:** Define interaction models and design principles for platform surfaces.
 - **Scope:** Interaction models for building, operating, and using agents, and clarity, trust, control, and accessibility.
 - **Prerequisites:** [06 — Reference Architecture](06-reference-architecture/), [08 — Builder Platform](08-builder-platform/)

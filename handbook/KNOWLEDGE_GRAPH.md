@@ -79,7 +79,7 @@ graph TD
 | [14 — Observability](14-observability/) | [06 — Reference Architecture](06-reference-architecture/), [07 — Runtime Platform](07-runtime-platform/) |
 | [15 — Security](15-security/) | [06 — Reference Architecture](06-reference-architecture/) |
 | [16 — Evaluation](16-evaluation/) | [06 — Reference Architecture](06-reference-architecture/), [07 — Runtime Platform](07-runtime-platform/) |
-| [17 — UI/UX](17-ui-ux/) | [06 — Reference Architecture](06-reference-architecture/), [08 — Builder Platform](08-builder-platform/) |
+| [17 — User Experience](17-ui-ux/) | [06 — Reference Architecture](06-reference-architecture/), [08 — Builder Platform](08-builder-platform/) |
 | [18 — Testing](18-testing/) | [06 — Reference Architecture](06-reference-architecture/), [07 — Runtime Platform](07-runtime-platform/) |
 | [19 — DevOps](19-devops/) | [06 — Reference Architecture](06-reference-architecture/), [14 — Observability](14-observability/) |
 | [20 — Roadmap](20-roadmap/) | [01 — Platform Vision](01-platform-vision/), [02 — Product Thinking](02-product-thinking/) |
@@ -98,7 +98,7 @@ graph TD
 - **How we work:** [03 — Engineering Principles](03-engineering-principles/), [04 — Development Methodology](04-development-methodology/), [05 — Domain-Driven Design](05-domain-driven-design/)
 - **Architecture core:** [06 — Reference Architecture](06-reference-architecture/)
 - **Platform planes:** [07 — Runtime Platform](07-runtime-platform/), [08 — Builder Platform](08-builder-platform/), [09 — Provider Platform](09-provider-platform/), [10 — Plugin Platform](10-plugin-platform/), [11 — Control Plane](11-control-plane/), [12 — Data Platform](12-data-platform/), [13 — API Platform](13-api-platform/)
-- **Cross-cutting concerns:** [14 — Observability](14-observability/), [15 — Security](15-security/), [16 — Evaluation](16-evaluation/), [17 — UI/UX](17-ui-ux/), [18 — Testing](18-testing/), [19 — DevOps](19-devops/)
+- **Cross-cutting concerns:** [14 — Observability](14-observability/), [15 — Security](15-security/), [16 — Evaluation](16-evaluation/), [17 — User Experience](17-ui-ux/), [18 — Testing](18-testing/), [19 — DevOps](19-devops/)
 - **Direction:** [20 — Roadmap](20-roadmap/)
 - **Reference (read anytime):** [21 — Glossary](21-glossary/)
 
@@ -129,7 +129,7 @@ Each concept is defined once, by its owning chapter. Other chapters reference th
 | [14 — Observability](14-observability/) | Telemetry, tracing, and service-level objectives |
 | [15 — Security](15-security/) | Threat model, identity, isolation, and agent-specific security |
 | [16 — Evaluation](16-evaluation/) | Evaluation of AI systems: model-dependent behavioral quality, metrics, and continuous evaluation |
-| [17 — UI/UX](17-ui-ux/) | Interaction models and experience principles |
+| [17 — User Experience](17-ui-ux/) | Interaction models and experience principles |
 | [18 — Testing](18-testing/) | Testing of software systems: correctness of deterministic behavior |
 | [19 — DevOps](19-devops/) | Delivery, infrastructure, and operational excellence |
 | [20 — Roadmap](20-roadmap/) | Roadmap shaping and sequencing |
