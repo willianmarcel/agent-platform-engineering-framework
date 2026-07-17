@@ -1,9 +1,4 @@
-# Agentic Security
-
-> **Proposed chapter (P1 — Agentic Core).** Authored to Handbook standard; not yet integrated into
-> the frozen Handbook numbering or Knowledge Graph. **Extends, and does not duplicate, the Security
-> chapter**, which owns threat model, identity, and isolation. This chapter owns the *agent-specific*
-> threat and control concepts defined below.
+# Chapter 26 — Agentic Security
 
 ## 1. Introduction
 
