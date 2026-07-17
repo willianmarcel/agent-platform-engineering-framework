@@ -61,7 +61,7 @@ All documentation follows the [Documentation Conventions](../governance/DOCUMENT
 ## Review and definition of done
 
 Work is reviewed through the review model owned by the
-[Execution Framework](../.claude/REVIEW_FRAMEWORK.md) and, for specifications, the
+[Execution Framework](../execution/REVIEW_FRAMEWORK.md) and, for specifications, the
 [Specification Review Framework](../specifications/SPECIFICATION_REVIEW.md). An artifact is
 **done** only when it satisfies its definition of done: its specification (where applicable) is
 met, its significant decisions are recorded as ADRs, it passes the applicable review dimensions,

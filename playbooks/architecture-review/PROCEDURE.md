@@ -43,7 +43,7 @@ changes or escalate per the [Escalation Policy](../../governance/ARCHITECTURE_ES
 
 ## Gates enforced
 Quality Gates [G-6 Traceability, G-7 Decision integrity, G-8 Consistency](../../bootstrap/QUALITY_GATES.md);
-the review dimensions of the [Review Framework](../../.claude/REVIEW_FRAMEWORK.md).
+the review dimensions of the [Review Framework](../../execution/REVIEW_FRAMEWORK.md).
 
 ## Relationships
 - Authority: [Architecture Charter](../../governance/ARCHITECTURE_CHARTER.md),

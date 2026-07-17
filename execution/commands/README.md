@@ -1,4 +1,4 @@
-# .claude/commands — Reusable Command Definitions
+# execution/commands — Reusable Command Definitions
 
 ## Overview
 This directory defines reusable AI commands that encode common, framework-aware actions such as scaffolding an ADR or validating structure.

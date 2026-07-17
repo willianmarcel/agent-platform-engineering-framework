@@ -49,7 +49,7 @@ defines a concept the Handbook owns.
   [`architecture-requirements`](../specifications/architecture-requirements/); event storming feeds
   [`domains`](../specifications/domains/).
 - **Execution Framework** — architectural models are produced and reviewed within
-  [commands, skills, and reviews](../.claude/EXECUTION_FRAMEWORK.md); runtime modeling relates
+  [commands, skills, and reviews](../execution/EXECUTION_FRAMEWORK.md); runtime modeling relates
   directly to it.
 - **ADR Library** — significant modeling decisions are recorded as [ADRs](../adrs/ADR_FRAMEWORK.md);
   models make ADR context visible.
@@ -137,6 +137,6 @@ sections are merged to keep each module readable and non-repetitive.
   the [architecture-review playbook](../playbooks/architecture-review/PROCEDURE.md).
 - Complements the [Handbook](../handbook/HANDBOOK_SUMMARY.md),
   [Specification Framework](../specifications/SPECIFICATION_FRAMEWORK.md),
-  [Execution Framework](../.claude/EXECUTION_FRAMEWORK.md), and [ADR Framework](../adrs/ADR_FRAMEWORK.md).
+  [Execution Framework](../execution/EXECUTION_FRAMEWORK.md), and [ADR Framework](../adrs/ADR_FRAMEWORK.md).
 - Consistent with the Foundation decisions on architecture: AD-0008 (no catch-all; every artifact
   categorized), AD-0010 (C4 directory scope), AD-0011 (event storming placement).

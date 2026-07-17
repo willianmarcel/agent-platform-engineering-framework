@@ -1,4 +1,4 @@
-# .claude/personas — AI Collaborator Roles
+# execution/personas — AI Collaborator Roles
 
 ## Overview
 This directory defines the personas an AI collaborator can adopt when working on APEF, such as an architect, security reviewer, or technical writer.

@@ -21,7 +21,7 @@ concurrency, retries, recovery, and failure handling. **Out of scope:** defining
 concepts (Ch 07/11) and the deployment placement ([`deployment/`](../deployment/MODELING.md)).
 
 ## Relationship to the Execution Framework
-Runtime modeling and the [Execution Framework](../../.claude/EXECUTION_FRAMEWORK.md) are complementary
+Runtime modeling and the [Execution Framework](../../execution/EXECUTION_FRAMEWORK.md) are complementary
 and distinct. The Execution Framework is *how APEF engineering work is executed* — the commands,
 skills, and workflows that produce the framework's artifacts. Runtime modeling is *how the modeled
 platform executes at run time* — the execution architecture of the platform being built. This module
@@ -77,7 +77,7 @@ unmodeled; naming a specific runtime or engine.
   [`sequences/`](../sequences/MODELING.md) (interaction flows),
   [`deployment/`](../deployment/MODELING.md) (where it runs).
 - **Related:** [`integrations/`](../integrations/MODELING.md) (external calls and their failure
-  behavior); the [Execution Framework](../../.claude/EXECUTION_FRAMEWORK.md) (engineering workflows).
+  behavior); the [Execution Framework](../../execution/EXECUTION_FRAMEWORK.md) (engineering workflows).
 - **Shared concepts (owned elsewhere):** execution, state, lifecycle (Ch 07); orchestration (Ch 11).
   This module defines none of them.
 
@@ -85,7 +85,7 @@ unmodeled; naming a specific runtime or engine.
 - **Handbook:** [07 — Runtime Platform](../../handbook/07-runtime-platform/CHAPTER.md),
   [11 — Control Plane](../../handbook/11-control-plane/CHAPTER.md).
 - **Specifications:** [`runtime`](../../specifications/runtime/).
-- **Execution Framework:** [EXECUTION_FRAMEWORK.md](../../.claude/EXECUTION_FRAMEWORK.md) (complementary).
+- **Execution Framework:** [EXECUTION_FRAMEWORK.md](../../execution/EXECUTION_FRAMEWORK.md) (complementary).
 - **ADRs:** runtime decisions are recorded via the [ADR framework](../../adrs/ADR_FRAMEWORK.md).
 - **Worked Examples:** [workflow](../../examples/workflows/) and [supervisor](../../examples/supervisors/)
   examples illustrate runtime behavior; model instances are ready-structure for Phase 5.

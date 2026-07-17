@@ -22,7 +22,7 @@ by OD-6 until Publication Readiness is approved).
 | Documentation Conventions | Normative (OD-3) | [Documentation Conventions](../governance/DOCUMENTATION_CONVENTIONS.md) |
 | Handbook (22 chapters + model + diagrams) | Frozen (per completion records) | [Handbook Summary](../handbook/HANDBOOK_SUMMARY.md) |
 | Platform Capability Model | Canonical | [PCM](../handbook/PLATFORM_CAPABILITY_MODEL.md) |
-| Execution Framework | Delivered | [Execution Framework](../.claude/EXECUTION_FRAMEWORK.md) |
+| Execution Framework | Delivered | [Execution Framework](../execution/EXECUTION_FRAMEWORK.md) |
 | Specification Framework & Library | Delivered | [Specification Framework](../specifications/SPECIFICATION_FRAMEWORK.md) |
 | Reference studies (10) | Approved | [Reference Index](../reference/REFERENCE_INDEX.md) |
 | Worked examples (6) | Approved | [Examples Index](../examples/EXAMPLES_INDEX.md) |

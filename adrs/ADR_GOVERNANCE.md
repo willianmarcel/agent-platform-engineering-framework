@@ -45,7 +45,7 @@ An ADR proposal is reviewed against these criteria before ratification:
 
 Ratification is recorded by moving the ADR to **Accepted** in both the record and the
 [Index](ADR_INDEX.md). Review uses the same discipline as the framework-wide
-[Review Framework](../.claude/REVIEW_FRAMEWORK.md) and satisfies Quality Gate G-7 (decision
+[Review Framework](../execution/REVIEW_FRAMEWORK.md) and satisfies Quality Gate G-7 (decision
 integrity) in [`../bootstrap/QUALITY_GATES.md`](../bootstrap/QUALITY_GATES.md).
 
 ## Integrity over time

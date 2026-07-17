@@ -21,7 +21,7 @@ decisions and are justified below.
 
 | Planned module | Delivered | Change & justification |
 |----------------|-----------|------------------------|
-| .claude/ | ✅ | Populated as the Execution Framework. `personas/` and `hooks/` are documented-only by design — personas are subsumed by the engineering-role **skills** (per the Skill Catalog note), and hooks are deferred as they would edge toward executable automation (out of scope). |
+| execution/ | ✅ | Populated as the Execution Framework. `personas/` and `hooks/` are documented-only by design — personas are subsumed by the engineering-role **skills** (per the Skill Catalog note), and hooks are deferred as they would edge toward executable automation (out of scope). |
 | bootstrap/ | ✅ | Governance authored; `MASTER_PLAN` and `ARCHITECTURE_DECISIONS` frozen. |
 | handbook/ | ✅ | All 22 chapters authored and frozen. Chapter 17 **renamed** "UI/UX" → "User Experience" (OD-2). |
 | specifications/ | ✅ | Foundation subdir `architecture` **renamed** → `architecture-requirements` (AD-0007, disambiguation); expanded into the Specification Framework + 12-area Library. |
@@ -36,7 +36,7 @@ decisions and are justified below.
 | assets/ | ✅ (structure) | Ready-structure; diagrams are authored as diagram-as-code, so rendered exports are optional (post-1.0). |
 | scripts/ | ✅ (structure) | Ready-structure; automation is intentionally out of scope (no executable automation). |
 
-**Merged / renamed / omitted:** renamed — `specifications/architecture` → `architecture-requirements`, Chapter 17 title; removed — `architecture/diagrams`; documented-only by design — `.claude/personas`, `.claude/hooks`, and the instance areas (playbooks procedures, ADR records, scripts, assets, architecture diagram instances). **No planned module was omitted without justification.**
+**Merged / renamed / omitted:** renamed — `specifications/architecture` → `architecture-requirements`, Chapter 17 title; removed — `architecture/diagrams`; documented-only by design — `execution/personas`, `execution/hooks`, and the instance areas (playbooks procedures, ADR records, scripts, assets, architecture diagram instances). **No planned module was omitted without justification.**
 
 ## Global Consistency Review
 

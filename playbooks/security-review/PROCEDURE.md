@@ -41,7 +41,7 @@ assessed threats. Otherwise block with required remediations, or escalate per th
 
 ## Gates enforced
 Quality Gate [G-8 Consistency](../../bootstrap/QUALITY_GATES.md) with the security principles; the
-security dimension of the [Review Framework](../../.claude/REVIEW_FRAMEWORK.md) (blocking).
+security dimension of the [Review Framework](../../execution/REVIEW_FRAMEWORK.md) (blocking).
 
 ## Relationships
 - Owned concepts: [Chapter 15 — Security](../../handbook/15-security/CHAPTER.md).

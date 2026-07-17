@@ -96,7 +96,7 @@ Governance, or Handbook chapters and is therefore a Board decision.
 
 ### OD-6 — Uncommitted body of approved work
 - **Problem:** A large body of approved-but-uncommitted work has accumulated (Handbook RC
-  Chapters 18–21 + handbook artifacts + completion records; the Execution Framework in `.claude/`;
+  Chapters 18–21 + handbook artifacts + completion records; the Execution Framework in `execution/`;
   the full Specification Library; and this Reference Studies milestone). **Recommendation:**
   authorize commits as clean, separate logical commits per milestone. **Impact:** version-control
   hygiene; no content change. **Proposed decision:** grant commit authorization.

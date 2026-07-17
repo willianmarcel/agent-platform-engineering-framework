@@ -23,7 +23,7 @@ To provide a durable engineering foundation — comparable to the Spring Framewo
 - [docs](docs/) — documentation derived from the handbook.
 - [assets](assets/) — shared binary and design assets.
 - [scripts](scripts/) — repository-maintenance utilities.
-- [.claude](.claude/) — configuration for AI-assisted engineering.
+- [.claude](execution/) — configuration for AI-assisted engineering.
 
 ## Out of Scope
 - Application, API, frontend, or backend code.

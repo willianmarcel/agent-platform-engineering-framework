@@ -1,4 +1,4 @@
-# .claude/skills — Packaged Skill Definitions
+# execution/skills — Packaged Skill Definitions
 
 ## Overview
 This directory holds packaged, task-specific skills that extend an AI collaborator's capabilities within APEF, such as diagram validation or specification linting.

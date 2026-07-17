@@ -22,7 +22,7 @@ structure, governance model, and repository conventions are now immutable.
 - Bootstrap governance documents: MASTER_PLAN, ARCHITECTURE_DECISIONS (ratified),
   ROADMAP (authoritative), ENGINEERING_GUIDE, REPOSITORY_GUIDE, QUALITY_GATES,
   RELEASE_PROCESS, WORKFLOW, and FOUNDATION_COMPLETE.
-- `.claude/` structure for AI-assisted engineering (commands, personas, skills,
+- `execution/` structure for AI-assisted engineering (commands, personas, skills,
   hooks, workflows) — directories documented, no personas or commands authored yet.
 - Handbook (chapters 00–21), specifications, architecture, playbooks, templates,
   examples, and reference scaffolding — each with a responsibility-defining README.

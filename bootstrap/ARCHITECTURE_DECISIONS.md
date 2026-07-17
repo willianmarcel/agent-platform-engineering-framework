@@ -419,7 +419,7 @@ applied.
 
 ```
 agent-platform-engineering-framework/
-├── .claude/
+├── execution/
 │   ├── commands/
 │   ├── personas/
 │   ├── skills/

@@ -42,7 +42,7 @@ framework- and technology-neutral engineering guidance. All five are now complet
 ## Boundary observations (surfaced, not silently resolved)
 
 - **Distinct gate documents.** `bootstrap/QUALITY_GATES.md` (framework-authoring gates) is
-  intentionally distinct from `.claude/QUALITY_GATES.md` (execution gates) and
+  intentionally distinct from `execution/QUALITY_GATES.md` (execution gates) and
   `specifications/SPECIFICATION_COMPLETION.md` (specification-completion gates). The bootstrap guide
   states this relationship explicitly so the three are not conflated.
 - **Stub language removed.** The "Current state: authored in the Engineering phase" note has been

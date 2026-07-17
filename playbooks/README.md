@@ -26,7 +26,7 @@ To turn expert judgment into repeatable, checklist-driven practice with consiste
 
 ## Relationships
 - [Quality Gates](../bootstrap/QUALITY_GATES.md) — the gates playbooks help enforce.
-- [Workflows](../.claude/workflows/) — AI orchestrations that may assist these procedures.
+- [Workflows](../execution/workflows/) — AI orchestrations that may assist these procedures.
 
 ## References
 - [Master Plan](../bootstrap/MASTER_PLAN.md) — the constitution governing the framework

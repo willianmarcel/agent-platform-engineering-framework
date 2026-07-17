@@ -1,4 +1,4 @@
-# .claude/hooks — Event Automation
+# execution/hooks — Event Automation
 
 ## Overview
 This directory defines hooks: automation that runs around AI or tool events to enforce APEF's standards automatically rather than relying on memory.

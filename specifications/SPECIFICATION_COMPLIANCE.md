@@ -28,24 +28,24 @@ found. This is a framework-level record.
 
 - The library's [review dimensions](SPECIFICATION_REVIEW.md) and
   [quality gates](SPECIFICATION_COMPLETION.md) specialize the Execution Framework's
-  [Review Framework](../.claude/REVIEW_FRAMEWORK.md) and [Quality Gates](../.claude/QUALITY_GATES.md)
+  [Review Framework](../execution/REVIEW_FRAMEWORK.md) and [Quality Gates](../execution/QUALITY_GATES.md)
   for specifications, preserving the one-owner, one-gate discipline. No conflict.
 
 ## Commands
 
 - The libraries are the source of truth the `write-spec` and `review-spec`
-  [commands](../.claude/COMMAND_CATALOG.md) act on; their templates and gates are what those
+  [commands](../execution/COMMAND_CATALOG.md) act on; their templates and gates are what those
   commands produce and check against.
 
 ## Skills
 
 - Each library's owning authority and review authority are drawn from the Execution Framework's
-  [skills](../.claude/SKILL_CATALOG.md) (Product Architect, Domain Expert, Security Architect, and
+  [skills](../execution/SKILL_CATALOG.md) (Product Architect, Domain Expert, Security Architect, and
   so on); ownership matches exactly.
 
 ## Workflows
 
-- The library's lifecycle and gates fit the [workflows](../.claude/WORKFLOW_CATALOG.md): a
+- The library's lifecycle and gates fit the [workflows](../execution/WORKFLOW_CATALOG.md): a
   specification progresses Draft → Approved within the Specify stage and is traced through to
   release. No workflow is contradicted.
 

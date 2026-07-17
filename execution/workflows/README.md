@@ -1,4 +1,4 @@
-# .claude/workflows — Multi-Step Orchestrations
+# execution/workflows — Multi-Step Orchestrations
 
 ## Overview
 This directory defines workflows that orchestrate multiple steps — combining commands, personas, skills, and hooks — to accomplish larger engineering tasks.
