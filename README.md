@@ -23,7 +23,7 @@ To provide a durable engineering foundation — comparable to the Spring Framewo
 - [docs](docs/) — documentation derived from the handbook.
 - [assets](assets/) — shared binary and design assets.
 - [scripts](scripts/) — repository-maintenance utilities.
-- [.claude](execution/) — configuration for AI-assisted engineering.
+- [execution](execution/) — the Execution Framework: commands, roles, workflows, review, and quality gates.
 
 ## Out of Scope
 - Application, API, frontend, or backend code.
@@ -36,7 +36,8 @@ To provide a durable engineering foundation — comparable to the Spring Framewo
 - [Contributing](CONTRIBUTING.md) — how to contribute.
 
 ## References
-- [Introduction chapter](handbook/00-introduction/) — the recommended starting point.
+- [Getting Started](GETTING_STARTED.md) — the practical on-ramp for new readers.
+- [Introduction chapter](handbook/00-introduction/) — the narrative starting point.
 - [License](LICENSE) — Apache License 2.0.
 
 ## Conventions
