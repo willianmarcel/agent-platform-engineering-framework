@@ -13,7 +13,7 @@ AI framework, orchestration library, or vendor.
 
 ## Overall Architecture
 
-The Handbook is organized as 27 chapters (00–26; chapters 22–26 are the Agentic Engineering part) in a deliberate reading order, grouped
+The Handbook is organized as 28 chapters (00–27; chapters 22–26 are the Agentic Engineering part, and 27 adds Evaluation-Driven Development) in a deliberate reading order, grouped
 into: orientation (00), why the platform exists (01–02), how we work (03–05), the
 architecture hub (06), the platform planes (07–13), the cross-cutting capabilities (14–17),
 long-term direction (20), and the shared vocabulary (21), with testing and DevOps (18–19)
@@ -43,7 +43,7 @@ accompany it in [Conceptual Diagrams](CONCEPTUAL_DIAGRAMS.md).
 ## Concept Ownership Statistics
 
 - **220** concepts, each with **exactly one** owning chapter (zero duplicates, verified).
-- **26** of 27 chapters own concepts; Chapter 00 (Introduction) owns none by design
+- **27** of 28 chapters own concepts; Chapter 00 (Introduction) owns none by design
   (orientation), and Chapter 21 (Glossary) owns only terminology-management concepts, not
   engineering concepts.
 - Concepts per chapter range from 5 to 19; the richest are Chapter 02 (Product Thinking, 19)

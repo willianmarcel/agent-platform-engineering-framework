@@ -15,7 +15,7 @@ topology and the rules for working within it.
 |-----------|-------|-------------|
 | `bootstrap/` | The governing plan and engineering guides — the framework's constitution and how-to. | [`MASTER_PLAN.md`](MASTER_PLAN.md) |
 | `governance/` | The Architecture Governance Package (Charter, Board, Operating Model, Escalation, Team Rules, Version Control Policy, Documentation Conventions). | [`../governance/README.md`](../governance/README.md) |
-| `handbook/` | The 27-chapter Engineering Handbook — the normative body of knowledge and concept owner. | [`../handbook/HANDBOOK_SUMMARY.md`](../handbook/HANDBOOK_SUMMARY.md) |
+| `handbook/` | The 28-chapter Engineering Handbook — the normative body of knowledge and concept owner. | [`../handbook/HANDBOOK_SUMMARY.md`](../handbook/HANDBOOK_SUMMARY.md) |
 | `execution/` | The Execution Framework — commands, skills, workflows, review framework, execution gates. | [`../execution/EXECUTION_FRAMEWORK.md`](../execution/EXECUTION_FRAMEWORK.md) |
 | `specifications/` | The Specification Framework and the 12-area Specification Library. | [`../specifications/SPECIFICATION_FRAMEWORK.md`](../specifications/SPECIFICATION_FRAMEWORK.md) |
 | `adrs/` | Architecture Decision Records and the ADR engineering framework. | [`../adrs/README.md`](../adrs/README.md) |
