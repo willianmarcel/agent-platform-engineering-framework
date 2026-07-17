@@ -1,8 +1,4 @@
-# Tool & Function Architecture
-
-> **Proposed chapter (P1 — Agentic Core).** Authored to Handbook standard; not yet integrated into
-> the frozen Handbook numbering or Knowledge Graph. Owns the tool-architecture concepts defined
-> below; references other chapters for concepts they own.
+# Chapter 23 — Tool & Function Architecture
 
 ## 1. Introduction
 

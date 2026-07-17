@@ -1,9 +1,4 @@
-# Multi-Agent Coordination
-
-> **Proposed chapter (P1 — Agentic Core).** Authored to Handbook standard; not yet integrated into
-> the frozen Handbook numbering or Knowledge Graph. Owns the multi-agent coordination concepts
-> defined below; references other chapters for concepts they own — in particular, general
-> **orchestration** is owned by the Control Plane and is referenced, not redefined, here.
+# Chapter 24 — Multi-Agent Coordination
 
 ## 1. Introduction
 

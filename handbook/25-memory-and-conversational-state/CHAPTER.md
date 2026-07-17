@@ -1,10 +1,4 @@
-# Memory & Conversational State
-
-> **Proposed chapter (P1 — Agentic Core).** Authored to Handbook standard; not yet integrated into
-> the frozen Handbook numbering or Knowledge Graph. Owns the agent-memory concepts defined below;
-> references other chapters for concepts they own — **persistence and retrieval** are owned by the
-> Data Platform and **runtime state** by the Runtime Platform, and are referenced, not redefined,
-> here.
+# Chapter 25 — Memory & Conversational State
 
 ## 1. Introduction
 

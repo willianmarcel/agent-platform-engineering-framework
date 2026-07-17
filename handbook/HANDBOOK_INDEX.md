@@ -4,7 +4,7 @@ The primary navigation artifact for the APEF Engineering Handbook. It maps every
 
 **Method.** *Owning chapter* is the chapter that defines the concept. *Referenced by* lists other chapters whose text uses the exact term. *Related concepts* are the other concepts owned by the same chapter. Concept definitions live only in the owning chapter; the [Glossary](21-glossary/CHAPTER.md) standardizes terminology and owns no concepts.
 
-**Totals.** 220 concepts across 22 chapters; each concept has exactly one owning chapter.
+**Totals.** 256 concepts across 27 chapters; each concept has exactly one owning chapter.
 
 ## Concept ownership by chapter
 
@@ -632,3 +632,74 @@ Which chapters each chapter links to (chapter-level).
 | 19 DevOps | 03, 06, 07, 11, 14, 18, 20, 21 |
 | 20 Roadmap | 01, 02, 03, 06, 13, 19, 21 |
 | 21 Glossary | 01, 02, 03, 04, 05, 06, 07, 09, 10, 11, 12, 14, 15, 16 |
+
+### Chapter 22 — Context & Prompt Engineering
+
+Owns 8 concept(s). Related concepts are the siblings listed here.
+
+| Concept | Referenced by |
+|---------|---------------|
+| Context Engineering | — |
+| Prompt | — |
+| Prompt layering | — |
+| Context | — |
+| Context assembly | — |
+| Context window | — |
+| Context budget | — |
+| Prompt lifecycle | — |
+
+### Chapter 23 — Tool & Function Architecture
+
+Owns 7 concept(s). Related concepts are the siblings listed here.
+
+| Concept | Referenced by |
+|---------|---------------|
+| Tool | — |
+| Tool contract | — |
+| Tool registry | — |
+| Tool permissioning | — |
+| Side-effect class | — |
+| Human-in-the-loop approval | — |
+| Action reversibility | — |
+
+### Chapter 24 — Multi-Agent Coordination
+
+Owns 7 concept(s). Related concepts are the siblings listed here.
+
+| Concept | Referenced by |
+|---------|---------------|
+| Multi-agent system | — |
+| Agent role | — |
+| Coordination topology | — |
+| Supervisor pattern | — |
+| Handoff | — |
+| Agent-to-agent contract | — |
+| Convergence and termination | — |
+
+### Chapter 25 — Memory & Conversational State
+
+Owns 7 concept(s). Related concepts are the siblings listed here.
+
+| Concept | Referenced by |
+|---------|---------------|
+| Agent memory | — |
+| Working memory | — |
+| Long-term memory | — |
+| Memory scope | — |
+| Memory write policy | — |
+| Retention and forgetting | — |
+| Memory retrieval into context | — |
+
+### Chapter 26 — Agentic Security
+
+Owns 7 concept(s). Related concepts are the siblings listed here.
+
+| Concept | Referenced by |
+|---------|---------------|
+| Agentic threat surface | — |
+| Prompt injection | — |
+| Jailbreak | — |
+| Guardrail | — |
+| Autonomy level | — |
+| Human-in-the-loop safety boundary | — |
+| Least-authority agent | — |

@@ -30,6 +30,11 @@ See the [Master Index](HANDBOOK.md) for reading strategy and policy, the [Knowle
 | 19 | DevOps | Medium | 06, 14 |
 | 20 | Roadmap | Low | 01, 02 |
 | 21 | Glossary | Low | — |
+| 22 | Context & Prompt Engineering | High | 04, 07 |
+| 23 | Tool & Function Architecture | High | 07, 11, 15 |
+| 24 | Multi-Agent Coordination | High | 07, 11 |
+| 25 | Memory & Conversational State | High | 07, 12 |
+| 26 | Agentic Security | High | 15, 23 |
 
 ## Chapter definitions
 
@@ -296,3 +301,65 @@ See the [Master Index](HANDBOOK.md) for reading strategy and policy, the [Knowle
 - **Related chapters:** [05 — Domain-Driven Design](05-domain-driven-design/)
 - **Estimated complexity:** Low
 - **Mandatory reading before this chapter:** None
+
+> **Agentic Engineering (chapters 22–26).** Added after the initial 00–21 body, these chapters cover the engineering disciplines specific to agentic systems. The Glossary (21) remains the terminology reference.
+
+### Chapter 22 — Context & Prompt Engineering
+
+- **Chapter number:** 22
+- **Chapter title:** Context & Prompt Engineering
+- **Objective:** Make context and prompts first-class, versioned engineering artifacts.
+- **Scope:** Context, prompts, assembly, the context window, budget, and the prompt lifecycle.
+- **Prerequisites:** [04 — Development Methodology](04-development-methodology/), [07 — Runtime Platform](07-runtime-platform/)
+- **Expected outputs:** A shared engineering understanding of context & prompt engineering for builders and operators.
+- **Related chapters:** [04 — Development Methodology](04-development-methodology/), [09 — Provider Platform](09-provider-platform/), [16 — Evaluation](16-evaluation/)
+- **Estimated complexity:** High
+- **Mandatory reading before this chapter:** [04 — Development Methodology](04-development-methodology/), [07 — Runtime Platform](07-runtime-platform/)
+
+### Chapter 23 — Tool & Function Architecture
+
+- **Chapter number:** 23
+- **Chapter title:** Tool & Function Architecture
+- **Objective:** Define what an agent may do, under what authority, with what safeguards.
+- **Scope:** Tool contracts, permissioning, side-effect classes, and safe action.
+- **Prerequisites:** [07 — Runtime Platform](07-runtime-platform/), [11 — Control Plane](11-control-plane/), [15 — Security](15-security/)
+- **Expected outputs:** A shared engineering understanding of tool & function architecture for builders and operators.
+- **Related chapters:** [10 — Plugin Platform](10-plugin-platform/), [11 — Control Plane](11-control-plane/), [15 — Security](15-security/)
+- **Estimated complexity:** High
+- **Mandatory reading before this chapter:** [07 — Runtime Platform](07-runtime-platform/), [11 — Control Plane](11-control-plane/), [15 — Security](15-security/)
+
+### Chapter 24 — Multi-Agent Coordination
+
+- **Chapter number:** 24
+- **Chapter title:** Multi-Agent Coordination
+- **Objective:** Bound multi-agent designs with roles, handoff contracts, and convergence.
+- **Scope:** Agent roles, coordination topologies, handoffs, and termination.
+- **Prerequisites:** [07 — Runtime Platform](07-runtime-platform/), [11 — Control Plane](11-control-plane/)
+- **Expected outputs:** A shared engineering understanding of multi-agent coordination for builders and operators.
+- **Related chapters:** [07 — Runtime Platform](07-runtime-platform/), [11 — Control Plane](11-control-plane/), [08 — Builder Platform](08-builder-platform/)
+- **Estimated complexity:** High
+- **Mandatory reading before this chapter:** [07 — Runtime Platform](07-runtime-platform/), [11 — Control Plane](11-control-plane/)
+
+### Chapter 25 — Memory & Conversational State
+
+- **Chapter number:** 25
+- **Chapter title:** Memory & Conversational State
+- **Objective:** Engineer memory as a governed, scoped, retained store — not a transcript.
+- **Scope:** Working and long-term memory, scope, retention, and retrieval into context.
+- **Prerequisites:** [07 — Runtime Platform](07-runtime-platform/), [12 — Data Platform](12-data-platform/)
+- **Expected outputs:** A shared engineering understanding of memory & conversational state for builders and operators.
+- **Related chapters:** [12 — Data Platform](12-data-platform/), [07 — Runtime Platform](07-runtime-platform/), [15 — Security](15-security/)
+- **Estimated complexity:** High
+- **Mandatory reading before this chapter:** [07 — Runtime Platform](07-runtime-platform/), [12 — Data Platform](12-data-platform/)
+
+### Chapter 26 — Agentic Security
+
+- **Chapter number:** 26
+- **Chapter title:** Agentic Security
+- **Objective:** Defend a system whose control flow is shaped by untrusted content and whose actions have effect.
+- **Scope:** The agentic threat surface, guardrails, autonomy levels, and least authority.
+- **Prerequisites:** [15 — Security](15-security/), [23 — Tool & Function Architecture](23-tool-and-function-architecture/)
+- **Expected outputs:** A shared engineering understanding of agentic security for builders and operators.
+- **Related chapters:** [15 — Security](15-security/), [16 — Evaluation](16-evaluation/), [23 — Tool & Function Architecture](23-tool-and-function-architecture/)
+- **Estimated complexity:** High
+- **Mandatory reading before this chapter:** [15 — Security](15-security/), [23 — Tool & Function Architecture](23-tool-and-function-architecture/)

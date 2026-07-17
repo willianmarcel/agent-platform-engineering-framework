@@ -1,8 +1,4 @@
-# Context & Prompt Engineering
-
-> **Proposed chapter (P1 — Agentic Core).** Authored to Handbook standard; not yet integrated into
-> the frozen Handbook numbering or Knowledge Graph. Owns the context/prompt-engineering concepts
-> defined below; references other chapters for concepts they own.
+# Chapter 22 — Context & Prompt Engineering
 
 ## 1. Introduction
 

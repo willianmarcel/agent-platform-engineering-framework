@@ -41,6 +41,17 @@ graph TD
   01 --> 20
   02 --> 20
   21["21 Glossary"]
+  04 --> 22
+  07 --> 22
+  07 --> 23
+  11 --> 23
+  15 --> 23
+  07 --> 24
+  11 --> 24
+  07 --> 25
+  12 --> 25
+  15 --> 26
+  23 --> 26
 ```
 
 > **Ratified clarification (Architecture Hub).** Chapter 06 is intentionally the architecture hub. Its dependency concentration is an accepted design choice, not a defect: it gives every plane and cross-cutting chapter one consistent architectural anchor.
@@ -71,6 +82,11 @@ graph TD
 | [19 — DevOps](19-devops/) | [06 — Reference Architecture](06-reference-architecture/), [14 — Observability](14-observability/) |
 | [20 — Roadmap](20-roadmap/) | [01 — Platform Vision](01-platform-vision/), [02 — Product Thinking](02-product-thinking/) |
 | [21 — Glossary](21-glossary/) | None |
+| [22 — Context & Prompt Engineering](22-context-and-prompt-engineering/) | [04 — Development Methodology](04-development-methodology/), [07 — Runtime Platform](07-runtime-platform/) |
+| [23 — Tool & Function Architecture](23-tool-and-function-architecture/) | [07 — Runtime Platform](07-runtime-platform/), [11 — Control Plane](11-control-plane/), [15 — Security](15-security/) |
+| [24 — Multi-Agent Coordination](24-multi-agent-coordination/) | [07 — Runtime Platform](07-runtime-platform/), [11 — Control Plane](11-control-plane/) |
+| [25 — Memory & Conversational State](25-memory-and-conversational-state/) | [07 — Runtime Platform](07-runtime-platform/), [12 — Data Platform](12-data-platform/) |
+| [26 — Agentic Security](26-agentic-security/) | [15 — Security](15-security/), [23 — Tool & Function Architecture](23-tool-and-function-architecture/) |
 
 ## Reading tiers
 
@@ -114,6 +130,11 @@ Each concept is defined once, by its owning chapter. Other chapters reference th
 | [18 — Testing](18-testing/) | Testing of software systems: correctness of deterministic behavior |
 | [19 — DevOps](19-devops/) | Delivery, infrastructure, and operational excellence |
 | [20 — Roadmap](20-roadmap/) | Roadmap shaping and sequencing |
+| [22 — Context & Prompt Engineering](22-context-and-prompt-engineering/) | Context assembly, prompt lifecycle, and the context budget |
+| [23 — Tool & Function Architecture](23-tool-and-function-architecture/) | Tool contracts, permissioning, side-effect classes, and action reversibility |
+| [24 — Multi-Agent Coordination](24-multi-agent-coordination/) | Multi-agent coordination: roles, topologies, handoffs, and convergence |
+| [25 — Memory & Conversational State](25-memory-and-conversational-state/) | Agent memory: working vs long-term, scope, retention, and retrieval |
+| [26 — Agentic Security](26-agentic-security/) | Agent-specific threats and controls: injection, guardrails, autonomy (extends Ch 15) |
 
 > **Ratified clarification (Glossary owns no concepts).** [21 — Glossary](21-glossary/) does not appear in the ownership table: it owns no concepts. It only standardizes terminology. The definition of every concept belongs to its owning chapter above; the Glossary provides the canonical term and links to that owner.
 
