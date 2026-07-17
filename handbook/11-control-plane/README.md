@@ -30,3 +30,6 @@ To define governance, orchestration, and administration across planes.
 
 ## Conventions
 - This README defines the chapter's scope; the chapter content is authored in the Engineering phase.
+
+## Reading
+- [Read the chapter](CHAPTER.md) — the complete Chapter 11 content.

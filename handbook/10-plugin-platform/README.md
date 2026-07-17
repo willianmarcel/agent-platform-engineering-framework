@@ -31,3 +31,6 @@ To define how the platform is safely extended.
 
 ## Conventions
 - This README defines the chapter's scope; the chapter content is authored in the Engineering phase.
+
+## Reading
+- [Read the chapter](CHAPTER.md) — the complete Chapter 10 content.

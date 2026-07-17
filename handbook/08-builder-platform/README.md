@@ -31,3 +31,6 @@ To define the authoring model and developer experience for builders.
 
 ## Conventions
 - This README defines the chapter's scope; the chapter content is authored in the Engineering phase.
+
+## Reading
+- [Read the chapter](CHAPTER.md) — the complete Chapter 08 content.
