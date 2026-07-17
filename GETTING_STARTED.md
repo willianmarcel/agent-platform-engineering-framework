@@ -93,6 +93,12 @@ governed release.
 - **Specify, then build; evaluate, then change.** SDD and EDD are the two habits the whole framework
   rests on.
 
+## See it applied end to end
+
+The [Reference Platform](examples/reference-platform/README.md) is a complete, neutral worked instance
+that walks this exact path for one scenario — vision, domain, architecture, the agentic core,
+evaluation, and decisions — so you can see what applying APEF actually produces before you start.
+
 ## Where to go next
 
 - The [Framework Map](docs/FRAMEWORK_MAP.md) and [Framework Index](docs/FRAMEWORK_INDEX.md) for the
