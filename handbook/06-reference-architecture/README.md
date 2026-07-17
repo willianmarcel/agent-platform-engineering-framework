@@ -31,3 +31,6 @@ To show how the runtime, builder, provider, plugin, control, data, and API conce
 
 ## Conventions
 - This README defines the chapter's scope; the chapter content is authored in the Engineering phase.
+
+## Reading
+- [Read the chapter](CHAPTER.md) — the complete Chapter 06 content.
