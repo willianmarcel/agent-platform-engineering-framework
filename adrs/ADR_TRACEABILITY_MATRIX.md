@@ -88,6 +88,7 @@ The Board approved the Migration Plan (OD-9); the six seed ADRs were authored in
 |----------|---------|----------|----------------|-----|
 | Template ownership & consolidation | One home per template type; complete AD-0012 | C1 | [`templates/`](../templates/), [`specifications/templates/`](../specifications/templates/), [`adrs/ADR_TEMPLATE.md`](ADR_TEMPLATE.md) | [ADR-0007](decisions/0007-template-ownership-and-consolidation.md) |
 | Necessary operational playbooks | Produce architecture/security/release reviews; defer four operation reviews | C2 | [`playbooks/`](../playbooks/) | [ADR-0008](decisions/0008-necessary-operational-playbooks.md) |
+| Architecture Modeling Framework | Establish `architecture/` as the modeling methodology (EC-3) | C2 | [`architecture/`](../architecture/ARCHITECTURE_MODELING_FRAMEWORK.md) | [ADR-0009](decisions/0009-establish-architecture-modeling-framework.md) |
 
 ## Completeness statement
 

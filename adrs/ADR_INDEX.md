@@ -27,6 +27,7 @@ elsewhere.
 | [ADR-0006](decisions/0006-adopt-version-control-policy.md) | Adopt the Version Control Policy | C6 | Accepted | — | — |
 | [ADR-0007](decisions/0007-template-ownership-and-consolidation.md) | Template ownership and consolidation | C1 | Accepted | — | — |
 | [ADR-0008](decisions/0008-necessary-operational-playbooks.md) | Necessary operational playbooks for v1.0 | C2 | Accepted | — | — |
+| [ADR-0009](decisions/0009-establish-architecture-modeling-framework.md) | Establish the Architecture Modeling Framework | C2 | Accepted | — | — |
 
 ## Existing ratified decisions (not yet formal ADRs)
 
