@@ -31,3 +31,6 @@ To keep the platform grounded in real user needs and prioritized by value.
 
 ## Conventions
 - This README defines the chapter's scope; the chapter content is authored in the Engineering phase.
+
+## Reading
+- [Read the chapter](CHAPTER.md) — the complete Chapter 02 content.
